@@ -2,7 +2,9 @@
 
 Simple React app to show random names from different languages
 
-![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/random-names/blob/master/documentation/dashboard.png)
+![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/dashboard.png)
+
+https://github.com/ayonious/random-names/blob/master/documentation/dashboard.png
 
 ## Methods used
 
