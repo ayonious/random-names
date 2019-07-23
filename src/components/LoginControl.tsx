@@ -1,7 +1,6 @@
 import * as React from "react";
 import Dashboard from "./Dashboard";
 import Container from "@material-ui/core/Container";
-
 import { CustomButton, Greeting } from "./Utils";
 
 export default class LoginControl extends React.Component {

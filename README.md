@@ -1,0 +1,10 @@
+# Random Names
+
+Simple React app to show random names from different languages
+
+## Methods used
+
+1. Simplest react app
+2. Typescript
+3. material ui
+4. State/Props/events

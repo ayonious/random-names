@@ -35,7 +35,7 @@ export default class CountryReults extends React.Component {
     const style = {
       width: 150,
       height: 50,
-      "font-size": "xx-large"
+      fontSize: "xx-large"
     };
     return (
       <div>
