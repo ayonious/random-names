@@ -46,7 +46,13 @@ export const names = {
     "Claudia",
     "Veronica",
     "Chrisina",
-    "Filippo"
+    "Filippo",
+    "Dinatela",
+    "Giorgio",
+    "Carla",
+    "Vincent",
+    "Mauro",
+    "Andrea"
   ],
   ES: [
     "Noemi",
@@ -69,7 +75,24 @@ export const names = {
     "Samuel",
     "Sebastian"
   ],
-  FR: ["Thomas", "Marc", "Quentin", "Luis", "Isabelle", "Olivier", "Etiene"],
+  FR: [
+    "Thomas",
+    "Marc",
+    "Quentin",
+    "Luis",
+    "Isabelle",
+    "Olivier",
+    "Etiene",
+    "Jaques",
+    "Brigitte",
+    "Marcel",
+    "Victor",
+    "Gustave",
+    "Arthur",
+    "Colette",
+    "Alexandre",
+    "Alphonse"
+  ],
   RU: [
     "Irina",
     "Michail",
@@ -87,7 +110,8 @@ export const names = {
     "Sophia",
     "Marina",
     "Anastasia",
-    "Nick"
+    "Nick",
+    "Nikolai"
   ],
   BD: [
     "Mehedi",
