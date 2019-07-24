@@ -3,8 +3,8 @@ import Button from "@material-ui/core/Button";
 
 export function CustomButton(props) {
   return (
-    <div onClick={props.onClick} align={"middle"}>
-      <Button variant="contained" color="primary">
+    <div align={"middle"}>
+      <Button variant="contained" color="primary" onClick={props.onClick}>
         {props.title}
       </Button>
     </div>
