@@ -1,4 +1,4 @@
-export const regions = ["DE", "ES", "FR", "BD", "IT"];
+export const regions = ["DE", "ES", "FR", "BD", "IT", "RU"];
 export const names = {
   DE: [
     "Michael",
