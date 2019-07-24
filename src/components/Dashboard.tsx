@@ -4,6 +4,7 @@ import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
+import {regions} from '../resources/Database';
 
 export default class Dashboard extends React.Component {
   constructor(props) {
@@ -17,9 +18,7 @@ export default class Dashboard extends React.Component {
   }
 
   render() {
-    const languageList = ["DE", "EN", "ES", "FR", "IT"];
-
-    const selectList = languageList.map(elem => (
+    const selectList = regions.map(elem => (
       <MenuItem key={elem} value={elem}>
         {elem}
       </MenuItem>
