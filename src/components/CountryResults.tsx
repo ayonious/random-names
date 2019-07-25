@@ -1,7 +1,7 @@
 import * as React from "react";
 import { CustomButton } from "./Utils";
 import Paper from "@material-ui/core/Paper";
-import { names } from "../resources/Database";
+import { database } from "../resources/Database";
 
 export default class CountryReults extends React.Component {
   constructor(props) {
@@ -11,8 +11,10 @@ export default class CountryReults extends React.Component {
   }
 
   handleShuffle() {
-    const index = Math.floor(Math.random() * names[this.props.country].length);
-    const name = names[this.props.country][index];
+    const index = Math.floor(
+      Math.random() * database[this.props.country].names.length
+    );
+    const name = database[this.props.country].names[index];
     this.setState({ currentName: name });
   }
 

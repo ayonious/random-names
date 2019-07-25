@@ -4,13 +4,14 @@ import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
-import {regions} from '../resources/Database';
+import { database } from "../resources/Database";
+const regions = Object.keys(database);
 
 export default class Dashboard extends React.Component {
   constructor(props) {
     super(props);
     this.onSelectOption = this.onSelectOption.bind(this);
-    this.state = { selectedCountry: "DE", currentName: "" };
+    this.state = { selectedCountry: "Germany", currentName: "" };
   }
 
   onSelectOption(event) {
@@ -18,9 +19,9 @@ export default class Dashboard extends React.Component {
   }
 
   render() {
-    const selectList = regions.map(elem => (
-      <MenuItem key={elem} value={elem}>
-        {elem}
+    const selectList = regions.map(region => (
+      <MenuItem key={region} value={region}>
+        {database[region].flag} {region}
       </MenuItem>
     ));
     return (
@@ -29,7 +30,7 @@ export default class Dashboard extends React.Component {
           <Select
             value={this.state.selectedCountry}
             onChange={this.onSelectOption}
-            autoWidth={true}
+            autoWidth={false}
           >
             {selectList}
           </Select>
