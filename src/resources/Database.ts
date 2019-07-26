@@ -405,6 +405,29 @@ export const database = {
   },
   Turkey: {
     flag: "🇹🇷",
-    names: ["Akbay", "Akbaba", "Baba"]
+    names: [
+      "Akbay",
+      "Akbaba",
+      "Baba",
+      "Omer",
+      "ustafa",
+      "Kaya",
+      "Zeynep",
+      "Hiranur",
+      "Nur",
+      "Ebrar",
+      "Elif",
+      "Ahmet",
+      "Mehmet",
+      "Zehra",
+      "Ali",
+      "Hasan",
+      "Ibrahim",
+      "Ela",
+      "Demir",
+      "Yilmaz",
+      "Fatma",
+      "Hatice"
+    ]
   }
 };
