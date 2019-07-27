@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "src/index.tsx",
   "engines": {
-    "node": "10.16.4"
+    "node": "11.15.0"
   },
   "dependencies": {
     "@material-ui/core": "4.2.1",
