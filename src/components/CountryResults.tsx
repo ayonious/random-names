@@ -1,7 +1,7 @@
 import * as React from "react";
-import { CustomButton } from "./Utils";
 import Paper from "@material-ui/core/Paper";
 import { database } from "../resources/Database";
+import { CustomButton } from "./Utils";
 
 interface Props {
   country: string;
@@ -33,15 +33,15 @@ export default class CountryReults extends React.Component<Props, State> {
       fontSize: "xx-large"
     };
     return (
-      <div style={style}>
+      <div>
         <br />
-        <div>
+        <div style={style}>
           <Paper square={true}>{this.state.currentName}</Paper>
         </div>
         <br />
-        <h1>
+        <div style={style}>
           <CustomButton onClick={this.handleShuffle} title={"Shuffle"} />{" "}
-        </h1>
+        </div>
       </div>
     );
   }
