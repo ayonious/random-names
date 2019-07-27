@@ -31,8 +31,11 @@ export default class Dashboard extends React.Component<Props, State> {
         {database[region].flag} {region}
       </MenuItem>
     ));
+    const style = {
+      "text-align": "center"
+    };
     return (
-      <div>
+      <div style={style}>
         <FormControl>
           <Select
             value={this.state.selectedCountry}

@@ -8,7 +8,7 @@ interface GreetingProps {
 export function CustomButton(props: any) {
   const style = {
     display: "flex",
-    alignItems: "center",
+    alignContent: "center",
     justifyContent: "center"
   };
   return (
@@ -23,7 +23,7 @@ export function CustomButton(props: any) {
 export function Greeting(props: GreetingProps) {
   const style = {
     display: "flex",
-    alignItems: "center",
+    alignContent: "center",
     justifyContent: "center"
   };
   return (

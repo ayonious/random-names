@@ -28,8 +28,9 @@ export default class CountryReults extends React.Component<Props, State> {
 
   render() {
     const style = {
-      width: 150,
       height: 50,
+      width: 150,
+      margin: "0 auto",
       fontSize: "xx-large"
     };
     return (
@@ -39,7 +40,7 @@ export default class CountryReults extends React.Component<Props, State> {
           <Paper square={true}>{this.state.currentName}</Paper>
         </div>
         <br />
-        <div style={style}>
+        <div>
           <CustomButton onClick={this.handleShuffle} title={"Shuffle"} />{" "}
         </div>
       </div>
