@@ -32,11 +32,16 @@ export default class Dashboard extends React.Component<Props, State> {
       </MenuItem>
     ));
     const style = {
-      "text-align": "center"
+      display: "flex",
+      width: 160,
+      margin: "0 auto",
+      alignContent: "center",
+      justifyContent: "center"
     };
+
     return (
-      <div style={style}>
-        <FormControl>
+      <div>
+        <FormControl style={style}>
           <Select
             value={this.state.selectedCountry}
             onChange={this.onSelectOption}
