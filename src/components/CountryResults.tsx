@@ -3,8 +3,16 @@ import { CustomButton } from "./Utils";
 import Paper from "@material-ui/core/Paper";
 import { database } from "../resources/Database";
 
-export default class CountryReults extends React.Component {
-  constructor(props) {
+interface Props {
+  country: string;
+}
+
+interface State {
+  currentName: string;
+}
+
+export default class CountryReults extends React.Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.handleShuffle = this.handleShuffle.bind(this);
     this.state = { currentName: "" };
@@ -12,7 +20,7 @@ export default class CountryReults extends React.Component {
 
   handleShuffle() {
     const index = Math.floor(
-      Math.random() * database[this.props.country].names.length
+      Math.random() * Object.keys(database[this.props.country].names).length
     );
     const name = database[this.props.country].names[index];
     this.setState({ currentName: name });
@@ -25,9 +33,9 @@ export default class CountryReults extends React.Component {
       fontSize: "xx-large"
     };
     return (
-      <div>
+      <div style={style}>
         <br />
-        <div style={style}>
+        <div>
           <Paper square={true}>{this.state.currentName}</Paper>
         </div>
         <br />

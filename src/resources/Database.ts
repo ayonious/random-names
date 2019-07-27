@@ -1,4 +1,13 @@
-export const database = {
+interface Database {
+  [country: string]: {
+    flag: string;
+    names: {
+      [index: number]: string;
+    };
+  };
+}
+
+export const database: Database = {
   Germany: {
     flag: "🇩🇪",
     names: [

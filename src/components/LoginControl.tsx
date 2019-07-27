@@ -3,8 +3,15 @@ import Dashboard from "./Dashboard";
 import Container from "@material-ui/core/Container";
 import { CustomButton, Greeting } from "./Utils";
 
-export default class LoginControl extends React.Component {
-  constructor(props) {
+interface Props {}
+
+interface State {
+  isLoggedIn: boolean;
+  clickCount: number;
+}
+
+export default class LoginControl extends React.Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.handleLoginClick = this.handleLoginClick.bind(this);
     this.handleLogoutClick = this.handleLogoutClick.bind(this);

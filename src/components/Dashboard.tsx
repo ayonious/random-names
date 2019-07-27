@@ -7,14 +7,21 @@ import FormControl from "@material-ui/core/FormControl";
 import { database } from "../resources/Database";
 const regions = Object.keys(database);
 
-export default class Dashboard extends React.Component {
-  constructor(props) {
+interface Props {}
+
+interface State {
+  selectedCountry: string;
+  currentName: string;
+}
+
+export default class Dashboard extends React.Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.onSelectOption = this.onSelectOption.bind(this);
     this.state = { selectedCountry: "Germany", currentName: "" };
   }
 
-  onSelectOption(event) {
+  onSelectOption(event: any) {
     this.setState({ selectedCountry: event.target.value });
   }
 
@@ -24,8 +31,13 @@ export default class Dashboard extends React.Component {
         {database[region].flag} {region}
       </MenuItem>
     ));
+    const style = {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center"
+    };
     return (
-      <div align={"middle"}>
+      <div style={style}>
         <FormControl>
           <Select
             value={this.state.selectedCountry}
