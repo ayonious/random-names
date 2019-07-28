@@ -32,7 +32,7 @@ export default class CountryReults extends React.Component<Props, State> {
       width: 150,
       margin: "0 auto",
       fontSize: "xx-large",
-      "text-align": "center"
+      textAlign: "center" as "center"
     };
     return (
       <div>
