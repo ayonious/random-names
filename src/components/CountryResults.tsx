@@ -1,5 +1,5 @@
 import * as React from "react";
-import Paper from "@material-ui/core/Paper";
+import Card from "@material-ui/core/Card";
 import { database } from "../resources/Database";
 import { CustomButton } from "./Utils";
 
@@ -38,7 +38,7 @@ export default class CountryReults extends React.Component<Props, State> {
       <div>
         <br />
         <div style={style}>
-          <Paper square={true}> {this.state.currentName} </Paper>
+          <Card square={true}> {this.state.currentName} </Card>
         </div>
         <br />
         <div>
