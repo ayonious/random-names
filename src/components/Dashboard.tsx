@@ -14,6 +14,14 @@ interface State {
   currentName: string;
 }
 
+const formStyle = {
+  display: "flex",
+  width: 160,
+  margin: "0 auto",
+  alignContent: "center",
+  justifyContent: "center"
+};
+
 export default class Dashboard extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -31,17 +39,9 @@ export default class Dashboard extends React.Component<Props, State> {
         {database[region].flag} {region}
       </MenuItem>
     ));
-    const style = {
-      display: "flex",
-      width: 160,
-      margin: "0 auto",
-      alignContent: "center",
-      justifyContent: "center"
-    };
-
     return (
       <div>
-        <FormControl style={style}>
+        <FormControl style={formStyle}>
           <Select
             value={this.state.selectedCountry}
             onChange={this.onSelectOption}

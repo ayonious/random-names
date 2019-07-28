@@ -11,6 +11,14 @@ interface State {
   currentName: string;
 }
 
+const cardStyle = {
+  height: 50,
+  width: 170,
+  margin: "0 auto",
+  fontSize: "xx-large",
+  textAlign: "center" as "center"
+};
+
 export default class CountryReults extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -27,17 +35,10 @@ export default class CountryReults extends React.Component<Props, State> {
   }
 
   render() {
-    const style = {
-      height: 50,
-      width: 150,
-      margin: "0 auto",
-      fontSize: "xx-large",
-      textAlign: "center" as "center"
-    };
     return (
       <div>
         <br />
-        <div style={style}>
+        <div style={cardStyle}>
           <Card square={true}> {this.state.currentName} </Card>
         </div>
         <br />

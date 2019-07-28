@@ -5,12 +5,13 @@ interface GreetingProps {
   isLoggedIn: boolean;
 }
 
+const style = {
+  display: "flex",
+  alignContent: "center",
+  justifyContent: "center"
+};
+
 export function CustomButton(props: any) {
-  const style = {
-    display: "flex",
-    alignContent: "center",
-    justifyContent: "center"
-  };
   return (
     <div style={style}>
       <Button variant="contained" color="primary" onClick={props.onClick}>
@@ -21,11 +22,6 @@ export function CustomButton(props: any) {
 }
 
 export function Greeting(props: GreetingProps) {
-  const style = {
-    display: "flex",
-    alignContent: "center",
-    justifyContent: "center"
-  };
   return (
     <div style={style}>
       {props.isLoggedIn && <h1> Start Shuffling! </h1>}
