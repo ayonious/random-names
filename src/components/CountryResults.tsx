@@ -31,13 +31,14 @@ export default class CountryReults extends React.Component<Props, State> {
       height: 50,
       width: 150,
       margin: "0 auto",
-      fontSize: "xx-large"
+      fontSize: "xx-large",
+      "text-align": "center"
     };
     return (
       <div>
         <br />
         <div style={style}>
-          <Paper square={true}>{this.state.currentName}</Paper>
+          <Paper square={true}> {this.state.currentName} </Paper>
         </div>
         <br />
         <div>
