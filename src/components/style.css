@@ -1,0 +1,7 @@
+.formStyle {
+  display: "flex";
+  width: 160;
+  margin: "0 auto";
+  align-content: "center";
+  justify-content: "center";
+}

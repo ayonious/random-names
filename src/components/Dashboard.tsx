@@ -1,3 +1,4 @@
+import "./style.css";
 import * as React from "react";
 import CountryReults from "./CountryResults";
 import Select from "@material-ui/core/Select";
@@ -14,7 +15,7 @@ interface State {
   currentName: string;
 }
 
-const formStyle = {
+const style = {
   display: "flex",
   width: 160,
   margin: "0 auto",
@@ -41,7 +42,7 @@ export default class Dashboard extends React.Component<Props, State> {
     ));
     return (
       <div>
-        <FormControl style={formStyle}>
+        <FormControl style={style}>
           <Select
             value={this.state.selectedCountry}
             onChange={this.onSelectOption}
