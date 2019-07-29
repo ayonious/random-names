@@ -1,7 +1,7 @@
 {
   "name": "name-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate Random Names Based on Region",
   "keywords": [],
   "engines": {
     "node": "11.15.0"
