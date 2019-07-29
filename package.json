@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "src/index.tsx",
   "engines": {
     "node": "11.15.0"
   },
