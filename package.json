@@ -11,9 +11,7 @@
     "@material-ui/core": "4.2.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "3.0.1"
-  },
-  "devDependencies": {
+    "react-scripts": "3.0.1",
     "@types/react": "^16.8.8",
     "@types/react-dom": "16.8.2",
     "typescript": "3.3.3"
@@ -25,10 +23,5 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
