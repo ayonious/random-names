@@ -7,7 +7,6 @@ interface Props {}
 
 interface State {
   isLoggedIn: boolean;
-  clickCount: number;
 }
 
 export default class LoginControl extends React.Component<Props, State> {
@@ -15,15 +14,15 @@ export default class LoginControl extends React.Component<Props, State> {
     super(props);
     this.handleLoginClick = this.handleLoginClick.bind(this);
     this.handleLogoutClick = this.handleLogoutClick.bind(this);
-    this.state = { isLoggedIn: false, clickCount: 0 };
+    this.state = { isLoggedIn: false };
   }
 
   handleLoginClick() {
-    this.setState({ isLoggedIn: true, clickCount: this.state.clickCount + 1 });
+    this.setState({ isLoggedIn: true });
   }
 
   handleLogoutClick() {
-    this.setState({ isLoggedIn: false, clickCount: this.state.clickCount + 1 });
+    this.setState({ isLoggedIn: false });
   }
 
   render() {
