@@ -32,7 +32,7 @@ export default class LoginControl extends React.Component<Props, State> {
     return (
       <Container maxWidth="sm">
         <div>
-          <Greeting isLoggedIn={this.state.isLoggedIn} />
+          <Greeting isLoggedIn={isLoggedIn} />
           {!isLoggedIn && (
             <CustomButton onClick={this.handleLoginClick} title={"Start"} />
           )}
