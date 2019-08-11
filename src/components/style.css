@@ -5,3 +5,11 @@
   align-content: "center";
   justify-content: "center";
 }
+
+.cardStyle {
+  height: 50;
+  width: 170;
+  margin: "0 auto";
+  font-size: "xx-large";
+  text-align: "center" as "center";
+}
