@@ -1,0 +1,6 @@
+{
+  "name": "Randon Names Shuffling",
+  "description": "A simple react app to shuffle through some random names",
+  "repository": "https://github.com/ayonious/random-names",
+  "keywords": ["react", "typescript"]
+}
