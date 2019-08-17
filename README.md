@@ -1,5 +1,7 @@
 # Random Names
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bc1e27c9-e5eb-47fc-a459-cacbcf09421f/deploy-status)](https://app.netlify.com/sites/random-names/deploys)
+
 Simple React app to show random names from different languages
 ![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/dashboard_v1.png)
 
