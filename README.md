@@ -1,8 +1,11 @@
 # Random Names
 
 Simple React app to show random names from different languages
-
 ![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/dashboard_v1.png)
+
+# See Deployed
+1. https://shuffle-names.herokuapp.com
+2. http://random-names.netlify.com
 
 ## Methods used
 
