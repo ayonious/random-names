@@ -8,6 +8,38 @@ interface Database {
 }
 
 export const database: Database = {
+  USA: {
+    flag: "🇺🇸",
+    names: [
+      "Amelia",
+      "Benjamin",
+      "Caroline",
+      "David",
+      "Elijah",
+      "Elizabeth",
+      "Emma",
+      "Gabriel",
+      "Harper",
+      "Henry",
+      "Isabella",
+      "Jackson",
+      "Jacob",
+      "James",
+      "Joseph",
+      "Liam",
+      "liams",
+      "Lucas",
+      "Madison",
+      "Mason",
+      "Noah",
+      "Oliver",
+      "Olivia",
+      "Owen",
+      "Whitney",
+      "William",
+      "Wyatt"
+    ]
+  },
   Germany: {
     flag: "🇩🇪",
     names: [
