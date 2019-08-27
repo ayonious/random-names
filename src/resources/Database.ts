@@ -27,7 +27,6 @@ export const database: Database = {
       "James",
       "Joseph",
       "Liam",
-      "liams",
       "Lucas",
       "Madison",
       "Mason",
