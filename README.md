@@ -10,7 +10,7 @@ Simple React app to show random names from different Regions
 2. http://random-names.netlify.com
 
 ## Things I played around with
-
+ 
 1. Simplest react app (create react app used partially)
 2. Typescript
 3. material ui
