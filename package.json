@@ -1,6 +1,6 @@
 {
   "name": "name-generator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Generate Random Names Based on Region",
   "keywords": [],
   "engines": {
@@ -10,8 +10,8 @@
     "@material-ui/core": "4.5.1",
     "@types/react": "^16.9.9",
     "@types/react-dom": "16.9.2",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
   },
