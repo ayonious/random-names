@@ -3,11 +3,19 @@
 
 Simple React app to show random names from different Regions
 
-![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.gif)
+<p align="center">
+  <img alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.gif">
+</p>
 
 # See Deployed
 1. https://shuffle-names.herokuapp.com
 2. http://random-names.netlify.com
+
+# Local Running instruction
+```
+npm run start
+```
+
 
 ## Things I played around with
 
