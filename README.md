@@ -14,6 +14,7 @@ Simple React app to show random names from different Regions
 
 # Local Running instruction
 ```
+npm install
 npm run start
 ```
 
