@@ -6,7 +6,10 @@ import MenuItem from "@material-ui/core/MenuItem";
 import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import { database } from "../resources/Database";
+import { Greeting } from "./Utils";
+
 const regions = Object.keys(database);
+
 
 interface Props {}
 
@@ -42,17 +45,22 @@ export default class Dashboard extends React.Component<Props, State> {
     ));
     return (
       <div>
-        <FormControl style={style}>
-          <Select
-            value={this.state.selectedCountry}
-            onChange={this.onSelectOption}
-            autoWidth={false}
-          >
-            {selectList}
-          </Select>
-          <FormHelperText>Region</FormHelperText>
-        </FormControl>
-        <CountryReults country={this.state.selectedCountry} />
+        <div>
+          <Greeting/>
+        </div>
+        <div>
+          <FormControl style={style}>
+            <Select
+              value={this.state.selectedCountry}
+              onChange={this.onSelectOption}
+              autoWidth={false}
+            >
+              {selectList}
+            </Select>
+            <FormHelperText>Region</FormHelperText>
+          </FormControl>
+          <CountryReults country={this.state.selectedCountry} />
+        </div>
       </div>
     );
   }

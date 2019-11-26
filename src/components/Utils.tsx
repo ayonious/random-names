@@ -1,10 +1,6 @@
 import * as React from "react";
 import Button from "@material-ui/core/Button";
 
-interface GreetingProps {
-  isLoggedIn: boolean;
-}
-
 const style = {
   display: "flex",
   alignContent: "center",
@@ -21,11 +17,10 @@ export function CustomButton(props: any) {
   );
 }
 
-export function Greeting(props: GreetingProps) {
+export function Greeting() {
   return (
     <div style={style}>
-      {props.isLoggedIn && <h1> Start Shuffling! </h1>}
-      {!props.isLoggedIn && <h1> Welcome to Random Names! </h1>}
+      <h1> Start Shuffling! </h1>
     </div>
   );
 }

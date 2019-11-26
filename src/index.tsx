@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "react-dom";
-import LoginControl from "./components/LoginControl";
+import Dashboard from "./components/Dashboard";
 
 const rootElement = document.getElementById("root");
-render(<LoginControl />, rootElement);
+render(<Dashboard />, rootElement);
