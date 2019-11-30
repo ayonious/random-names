@@ -1,12 +1,7 @@
 {
-  "include": [
-    "./src/*"
-  ],
+  "include": ["./src/*"],
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "es2015"
-    ],
+    "lib": ["dom", "es2015"],
     "jsx": "preserve",
     "target": "es5",
     "allowJs": true,

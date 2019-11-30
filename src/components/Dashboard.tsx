@@ -1,15 +1,14 @@
-import "./style.css";
-import * as React from "react";
-import CountryReults from "./CountryResults";
-import Select from "@material-ui/core/Select";
-import MenuItem from "@material-ui/core/MenuItem";
-import FormHelperText from "@material-ui/core/FormHelperText";
-import FormControl from "@material-ui/core/FormControl";
-import { database } from "../resources/Database";
-import { Greeting } from "./Utils";
+import './style.css';
+import * as React from 'react';
+import CountryReults from './CountryResults';
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import { database } from '../resources/Database';
+import { Greeting } from './Utils';
 
 const regions = Object.keys(database);
-
 
 interface Props {}
 
@@ -19,18 +18,18 @@ interface State {
 }
 
 const style = {
-  display: "flex",
+  display: 'flex',
   width: 160,
-  margin: "0 auto",
-  alignContent: "center",
-  justifyContent: "center"
+  margin: '0 auto',
+  alignContent: 'center',
+  justifyContent: 'center',
 };
 
 export default class Dashboard extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.onSelectOption = this.onSelectOption.bind(this);
-    this.state = { selectedCountry: "Germany", currentName: "" };
+    this.state = { selectedCountry: 'Germany', currentName: '' };
   }
 
   onSelectOption(event: any) {
@@ -46,7 +45,7 @@ export default class Dashboard extends React.Component<Props, State> {
     return (
       <div>
         <div>
-          <Greeting/>
+          <Greeting />
         </div>
         <div>
           <FormControl style={style}>

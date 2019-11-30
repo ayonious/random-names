@@ -1,10 +1,10 @@
-import * as React from "react";
-import Button from "@material-ui/core/Button";
+import * as React from 'react';
+import Button from '@material-ui/core/Button';
 
 const style = {
-  display: "flex",
-  alignContent: "center",
-  justifyContent: "center"
+  display: 'flex',
+  alignContent: 'center',
+  justifyContent: 'center',
 };
 
 export function CustomButton(props: any) {
