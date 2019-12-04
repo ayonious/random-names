@@ -1,6 +1,6 @@
 {
   "name": "name-generator",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Generate Random Names Based on Region",
   "keywords": [],
   "engines": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "husky": "^3.1.0",
     "typescript": "3.7.3",
-    "@types/react": "^16.9.14",
+    "@types/react": "^16.9.15",
     "@types/react-dom": "16.9.4",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1"
