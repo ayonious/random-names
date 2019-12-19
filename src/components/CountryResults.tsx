@@ -1,8 +1,9 @@
-import * as React from 'react';
 import Card from '@material-ui/core/Card';
+import * as React from 'react';
+
 import { database } from '../resources/Database';
-import { CustomButton } from './Utils';
 import { CardWrapper } from '../styles/styles';
+import { CustomButton } from './Utils';
 
 interface Props {
   country: string;
@@ -11,14 +12,6 @@ interface Props {
 interface State {
   currentName: string;
 }
-
-const cardStyle = {
-  height: 50,
-  width: 170,
-  margin: '0 auto',
-  fontSize: 'xx-large',
-  textAlign: 'center' as 'center',
-};
 
 export default class CountryReults extends React.Component<Props, State> {
   constructor(props: Props) {
