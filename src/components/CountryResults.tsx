@@ -2,6 +2,7 @@ import * as React from 'react';
 import Card from '@material-ui/core/Card';
 import { database } from '../resources/Database';
 import { CustomButton } from './Utils';
+import { CardWrapper } from '../styles/styles';
 
 interface Props {
   country: string;
@@ -38,9 +39,9 @@ export default class CountryReults extends React.Component<Props, State> {
     return (
       <div>
         <br />
-        <div style={cardStyle}>
+        <CardWrapper>
           <Card square={true}> {this.state.currentName} </Card>
-        </div>
+        </CardWrapper>
         <br />
         <div>
           <CustomButton onClick={this.handleShuffle} title={'Shuffle'} />{' '}
