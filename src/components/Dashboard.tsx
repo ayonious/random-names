@@ -1,11 +1,11 @@
-import './style.css';
-import * as React from 'react';
-import CountryReults from './CountryResults';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
-import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import MenuItem from '@material-ui/core/MenuItem';
+import Select from '@material-ui/core/Select';
+import * as React from 'react';
+
 import { database } from '../resources/Database';
+import CountryReults from './CountryResults';
 import { Greeting } from './Utils';
 
 const regions = Object.keys(database);

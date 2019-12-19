@@ -15,3 +15,9 @@ export const FormControlWrapper = styled.div`
   align-content: center;
   justify-content: center;
 `;
+
+export const CenteredFlexDevWrapper = styled.div`
+  display: flex;
+  align-content: center;
+  justify-content: center;
+`;

@@ -1,26 +1,22 @@
-import * as React from 'react';
 import Button from '@material-ui/core/Button';
+import * as React from 'react';
 
-const style = {
-  display: 'flex',
-  alignContent: 'center',
-  justifyContent: 'center',
-};
+import { CenteredFlexDevWrapper } from '../styles/styles';
 
 export function CustomButton(props: any) {
   return (
-    <div style={style}>
+    <CenteredFlexDevWrapper>
       <Button variant="contained" color="primary" onClick={props.onClick}>
         {props.title}
       </Button>
-    </div>
+    </CenteredFlexDevWrapper>
   );
 }
 
 export function Greeting() {
   return (
-    <div style={style}>
+    <CenteredFlexDevWrapper>
       <h1> Start Shuffling! </h1>
-    </div>
+    </CenteredFlexDevWrapper>
   );
 }
