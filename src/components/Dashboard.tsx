@@ -5,6 +5,7 @@ import Select from '@material-ui/core/Select';
 import * as React from 'react';
 
 import { database } from '../resources/Database';
+import { FormWrapper } from '../styles/styles';
 import CountryReults from './CountryResults';
 import { Greeting } from './Utils';
 
@@ -16,15 +17,6 @@ interface State {
   selectedCountry: string;
   currentName: string;
 }
-
-const style = {
-  display: 'flex',
-  width: 160,
-  margin: '0 auto',
-  alignContent: 'center',
-  justifyContent: 'center',
-};
-
 export default class Dashboard extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -47,8 +39,8 @@ export default class Dashboard extends React.Component<Props, State> {
         <div>
           <Greeting />
         </div>
-        <div>
-          <FormControl style={style}>
+        <FormWrapper>
+          <FormControl className="myFormClass">
             <Select
               value={this.state.selectedCountry}
               onChange={this.onSelectOption}
@@ -59,7 +51,7 @@ export default class Dashboard extends React.Component<Props, State> {
             <FormHelperText>Region</FormHelperText>
           </FormControl>
           <CountryReults country={this.state.selectedCountry} />
-        </div>
+        </FormWrapper>
       </div>
     );
   }
