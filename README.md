@@ -5,7 +5,7 @@
 Simple React app to show random names from different Regions
 
 <p align="center">
-  <img height="342px" width="300px" alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.gif">
+  <img height="342px" width="auto" alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.gif">
 </p>
 
 # See Deployed

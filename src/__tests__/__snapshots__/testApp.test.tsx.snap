@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryResults renders 1`] = `
+<div>
+  <br />
+  <div
+    className="sc-AykKC iPJLXV"
+  >
+    <div
+      className="MuiPaper-root MuiCard-root MuiPaper-elevation1"
+    >
+       
+      
+       
+    </div>
+  </div>
+  <br />
+  <div>
+    <div
+      className="sc-AykKE ijijzX"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Shuffle
+        </span>
+      </button>
+    </div>
+     
+  </div>
+</div>
+`;
+
+exports[`CustomButton renders 1`] = `
+<div
+  className="sc-AykKE ijijzX"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Shuffle
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Dashboard renders 1`] = `
+<div>
+  <div>
+    <div
+      className="sc-AykKE ijijzX"
+    >
+      <h1>
+         Start Shuffling! 
+      </h1>
+    </div>
+  </div>
+  <div
+    className="sc-AykKF gJyUYC"
+  >
+    <div
+      className="MuiFormControl-root myFormClass"
+    >
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby=" "
+          className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          🇩🇪
+           
+          Germany
+        </div>
+        <input
+          onAnimationStart={[Function]}
+          type="hidden"
+          value="Germany"
+        />
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+      <p
+        className="MuiFormHelperText-root MuiFormHelperText-filled"
+      >
+        Region
+      </p>
+    </div>
+    <div>
+      <br />
+      <div
+        className="sc-AykKC iPJLXV"
+      >
+        <div
+          className="MuiPaper-root MuiCard-root MuiPaper-elevation1"
+        >
+           
+          
+           
+        </div>
+      </div>
+      <br />
+      <div>
+        <div
+          className="sc-AykKE ijijzX"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Shuffle
+            </span>
+            <span
+              className="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Greeting renders 1`] = `
+<div
+  className="sc-AykKE ijijzX"
+>
+  <h1>
+     Start Shuffling! 
+  </h1>
+</div>
+`;
