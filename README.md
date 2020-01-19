@@ -29,3 +29,4 @@ npm run start
 4. State/Props/events
 5. Deploy to heroku
 6. Deploy to Netlify
+7. Creating CI in Travis to run tests during pr creation
