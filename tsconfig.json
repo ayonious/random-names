@@ -1,8 +1,8 @@
 {
-  "include": ["./src/*"],
+  "include": ["./src/*", "test"],
   "compilerOptions": {
     "lib": ["dom", "es2015"],
-    "jsx": "preserve",
+    "jsx": "react",
     "target": "es5",
     "allowJs": true,
     "skipLibCheck": true,

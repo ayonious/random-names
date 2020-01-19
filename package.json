@@ -11,14 +11,15 @@
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-scripts": "3.3.0",
-    "styled-components": "5.0.0"
+    "styled-components": "5.0.0",
+    "ts-jest": "^24.3.0"
   },
   "scripts": {
     "setup": "npm install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "format": "prettier --write \"**/*.{json,md,ts,tsx,yml,js,jsx}\"",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest --config jestconfig.json",
     "eject": "react-scripts eject"
   },
   "browserslist": [

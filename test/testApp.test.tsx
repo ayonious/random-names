@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
-import CountryResults from '../components/CountryResults';
-import Dashboard from '../components/Dashboard';
-import { CustomButton, Greeting } from '../components/Utils';
+import CountryResults from '../src/components/CountryResults';
+import Dashboard from '../src/components/Dashboard';
+import { CustomButton, Greeting } from '../src/components/Utils';
 
 it('CountryResults renders', () => {
   const tree = renderer.create(<CountryResults country="Germany" />);
