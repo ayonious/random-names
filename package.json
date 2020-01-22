@@ -1,6 +1,6 @@
 {
   "name": "name-generator",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "Generate Random Names Based on Region",
   "keywords": [],
   "engines": {
@@ -32,7 +32,7 @@
     "@types/jest": "^24.9.0",
     "@types/react": "16.9.19",
     "@types/react-dom": "16.9.5",
-    "@types/react-test-renderer": "^16.9.1",
+    "@types/react-test-renderer": "^16.9.2",
     "@types/styled-components": "4.4.2",
     "husky": "^4.2.0",
     "jest": "^24.9.0",
