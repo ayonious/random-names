@@ -4,7 +4,7 @@ exports[`CountryResults renders 1`] = `
 <div>
   <br />
   <div
-    className="sc-AykKC iPJLXV"
+    className="sc-AxjAm dIkWa"
   >
     <div
       className="MuiPaper-root MuiCard-root MuiPaper-elevation1"
@@ -17,7 +17,7 @@ exports[`CountryResults renders 1`] = `
   <br />
   <div>
     <div
-      className="sc-AykKE ijijzX"
+      className="sc-AxiKw doAfSR"
     >
       <button
         className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
@@ -51,7 +51,7 @@ exports[`CountryResults renders 1`] = `
 
 exports[`CustomButton renders 1`] = `
 <div
-  className="sc-AykKE ijijzX"
+  className="sc-AxiKw doAfSR"
 >
   <button
     className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
@@ -84,7 +84,7 @@ exports[`Dashboard renders 1`] = `
 <div>
   <div>
     <div
-      className="sc-AykKE ijijzX"
+      className="sc-AxiKw doAfSR"
     >
       <h1>
          Start Shuffling! 
@@ -92,7 +92,7 @@ exports[`Dashboard renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-AykKF gJyUYC"
+    className="sc-AxhCb dncfSl"
   >
     <div
       className="MuiFormControl-root myFormClass"
@@ -142,7 +142,7 @@ exports[`Dashboard renders 1`] = `
     <div>
       <br />
       <div
-        className="sc-AykKC iPJLXV"
+        className="sc-AxjAm dIkWa"
       >
         <div
           className="MuiPaper-root MuiCard-root MuiPaper-elevation1"
@@ -155,7 +155,7 @@ exports[`Dashboard renders 1`] = `
       <br />
       <div>
         <div
-          className="sc-AykKE ijijzX"
+          className="sc-AxiKw doAfSR"
         >
           <button
             className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
@@ -194,7 +194,7 @@ exports[`Dashboard renders 1`] = `
 
 exports[`Greeting renders 1`] = `
 <div
-  className="sc-AykKE ijijzX"
+  className="sc-AxiKw doAfSR"
 >
   <h1>
      Start Shuffling! 
