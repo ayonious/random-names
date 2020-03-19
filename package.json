@@ -1,6 +1,6 @@
 {
   "name": "name-generator",
-  "version": "1.0.74",
+  "version": "1.0.75",
   "description": "Generate Random Names Based on Region",
   "keywords": [],
   "engines": {
@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "@material-ui/core": "4.9.7",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-scripts": "3.4.0",
     "styled-components": "5.0.1",
     "ts-jest": "^25.2.1"
@@ -38,7 +38,7 @@
     "jest": "^24.9.0",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
-    "react-test-renderer": "^16.13.0",
+    "react-test-renderer": "^16.13.1",
     "typescript": "3.8.3"
   }
 }
