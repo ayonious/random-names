@@ -3,6 +3,7 @@
   "rangeStrategy": "bump",
   "bumpVersion": "patch",
   "automerge": true,
+  "schedule": ["on monday"],
   "lockFileMaintenance": {
     "enabled": true
   }
