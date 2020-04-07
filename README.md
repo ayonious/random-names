@@ -12,8 +12,7 @@ Simple React app to show random names from different Regions
 
 # See Deployed
 
-1. https://shuffle-names.herokuapp.com
-2. http://random-names.netlify.com
+http://random-names.netlify.com
 
 # Local Running instruction
 
@@ -28,6 +27,5 @@ npm run start
 2. Typescript
 3. material ui
 4. State/Props/events
-5. Deploy to heroku
-6. Deploy to Netlify
-7. Creating CI in Travis to run tests during pr creation
+5. Deploy to Netlify
+6. Creating CI in Travis to run tests during pr creation
