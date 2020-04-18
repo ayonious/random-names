@@ -12,7 +12,7 @@ Simple React app to show random names from different Regions
 
 # See Deployed
 
-http://random-names.netlify.com
+https://random-names.netlify.app
 
 # Local Running instruction
 
