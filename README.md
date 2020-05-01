@@ -10,18 +10,18 @@ Simple React app to show random names from different Regions
   <img height="342px" width="auto" alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.gif">
 </p>
 
-# See Deployed
+# 🎁 See Deployed
 
 https://random-names.netlify.app
 
-# Local Running instruction
+# 🏃‍♂️ Local Running instruction
 
 ```
 npm install
 npm run start
 ```
 
-## Things I played around with
+## 🎓 Things I played around with
 
 1. Simplest react app (create react app used partially)
 2. Typescript
@@ -29,3 +29,7 @@ npm run start
 4. State/Props/events
 5. Deploy to Netlify
 6. Creating CI in Travis to run tests during pr creation
+
+## 🚀 Deploy Yourself
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ayonious/random-names)
