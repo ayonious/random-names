@@ -10,11 +10,11 @@ Simple React app to show random names from different Regions
   <img height="342px" width="auto" alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.gif">
 </p>
 
-# 🎁 See Deployed
+## 🎁 See Deployed
 
 https://random-names.netlify.app
 
-# 🏃‍♂️ Local Running instruction
+## 🏃‍♂️ Local Running instruction
 
 ```
 npm install
