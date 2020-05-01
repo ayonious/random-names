@@ -29,7 +29,7 @@ export default class Dashboard extends React.Component<Props, State> {
   }
 
   render() {
-    const selectList = regions.map(region => (
+    const selectList = regions.map((region) => (
       <MenuItem key={region} value={region}>
         {database[region].flag} {region}
       </MenuItem>
