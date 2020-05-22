@@ -1,17 +1,17 @@
 import * as React from 'react';
-import * as renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import CountryResults from '../src/components/CountryResults';
 import Dashboard from '../src/components/Dashboard';
 import { CustomButton, Greeting } from '../src/components/Utils';
 
 it('CountryResults renders', () => {
-  const tree = renderer.create(<CountryResults country="Germany" />);
-  expect(tree).toMatchSnapshot();
+  const { container } = render(<CountryResults country="Germany" />);
+  expect(container).toMatchSnapshot();
 });
 
 it('Dashboard renders', () => {
-  const tree = renderer.create(<Dashboard />);
-  expect(tree).toMatchSnapshot();
+  const { container } = render(<Dashboard />);
+  expect(container).toMatchSnapshot();
 });
 
 it('CustomButton renders', () => {
@@ -19,13 +19,13 @@ it('CustomButton renders', () => {
     console.log('on click function testing');
   };
 
-  const tree = renderer.create(
+  const { container } = render(
     <CustomButton onClick={func} title={'Shuffle'} />
   );
-  expect(tree).toMatchSnapshot();
+  expect(container).toMatchSnapshot();
 });
 
 it('Greeting renders', () => {
-  const tree = renderer.create(<Greeting />);
-  expect(tree).toMatchSnapshot();
+  const { container } = render(<Greeting />);
+  expect(container).toMatchSnapshot();
 });

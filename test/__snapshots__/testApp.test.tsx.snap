@@ -2,188 +2,155 @@
 
 exports[`CountryResults renders 1`] = `
 <div>
-  <br />
-  <div
-    className="sc-AxjAm dIkWa"
-  >
-    <div
-      className="MuiPaper-root MuiCard-root MuiPaper-elevation1"
-    >
-       
-      
-       
-    </div>
-  </div>
-  <br />
   <div>
+    <br />
     <div
-      className="sc-AxiKw doAfSR"
+      class="sc-AxjAm dIkWa"
     >
-      <button
-        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
-        type="button"
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1"
       >
-        <span
-          className="MuiButton-label"
-        >
-          Shuffle
-        </span>
-      </button>
+         
+        
+         
+      </div>
     </div>
-     
+    <br />
+    <div>
+      <div
+        class="sc-AxiKw doAfSR"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Shuffle
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+       
+    </div>
   </div>
 </div>
 `;
 
 exports[`CustomButton renders 1`] = `
-<div
-  className="sc-AxiKw doAfSR"
->
-  <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onDragLeave={[Function]}
-    onFocus={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onMouseLeave={[Function]}
-    onMouseUp={[Function]}
-    onTouchEnd={[Function]}
-    onTouchMove={[Function]}
-    onTouchStart={[Function]}
-    tabIndex={0}
-    type="button"
+<div>
+  <div
+    class="sc-AxiKw doAfSR"
   >
-    <span
-      className="MuiButton-label"
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      tabindex="0"
+      type="button"
     >
-      Shuffle
-    </span>
-  </button>
+      <span
+        class="MuiButton-label"
+      >
+        Shuffle
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
 </div>
 `;
 
 exports[`Dashboard renders 1`] = `
 <div>
   <div>
-    <div
-      className="sc-AxiKw doAfSR"
-    >
-      <h1>
-         Start Shuffling! 
-      </h1>
-    </div>
-  </div>
-  <div
-    className="sc-AxhCb dncfSl"
-  >
-    <div
-      className="MuiFormControl-root myFormClass"
-    >
-      <div
-        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-        onClick={[Function]}
-      >
-        <div
-          aria-haspopup="listbox"
-          className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-          onBlur={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onMouseDown={[Function]}
-          role="button"
-          tabIndex={0}
-        >
-          🇩🇪
-           
-          Germany
-        </div>
-        <input
-          onAnimationStart={[Function]}
-          type="hidden"
-          value="Germany"
-        />
-        <svg
-          aria-hidden={true}
-          className="MuiSvgIcon-root MuiSelect-icon"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M7 10l5 5 5-5z"
-          />
-        </svg>
-      </div>
-      <p
-        className="MuiFormHelperText-root MuiFormHelperText-filled"
-      >
-        Region
-      </p>
-    </div>
     <div>
-      <br />
       <div
-        className="sc-AxjAm dIkWa"
+        class="sc-AxiKw doAfSR"
+      >
+        <h1>
+           Start Shuffling! 
+        </h1>
+      </div>
+    </div>
+    <div
+      class="sc-AxhCb dncfSl"
+    >
+      <div
+        class="MuiFormControl-root myFormClass"
       >
         <div
-          className="MuiPaper-root MuiCard-root MuiPaper-elevation1"
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
         >
-           
-          
-           
-        </div>
-      </div>
-      <br />
-      <div>
-        <div
-          className="sc-AxiKw doAfSR"
-        >
-          <button
-            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            tabIndex={0}
-            type="button"
+          <div
+            aria-haspopup="listbox"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+            role="button"
+            tabindex="0"
           >
-            <span
-              className="MuiButton-label"
-            >
-              Shuffle
-            </span>
-            <span
-              className="MuiTouchRipple-root"
+            🇩🇪
+             
+            Germany
+          </div>
+          <input
+            type="hidden"
+            value="Germany"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
             />
-          </button>
+          </svg>
         </div>
-         
+        <p
+          class="MuiFormHelperText-root MuiFormHelperText-filled"
+        >
+          Region
+        </p>
+      </div>
+      <div>
+        <br />
+        <div
+          class="sc-AxjAm dIkWa"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-elevation1"
+          >
+             
+            
+             
+          </div>
+        </div>
+        <br />
+        <div>
+          <div
+            class="sc-AxiKw doAfSR"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Shuffle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+           
+        </div>
       </div>
     </div>
   </div>
@@ -191,11 +158,13 @@ exports[`Dashboard renders 1`] = `
 `;
 
 exports[`Greeting renders 1`] = `
-<div
-  className="sc-AxiKw doAfSR"
->
-  <h1>
-     Start Shuffling! 
-  </h1>
+<div>
+  <div
+    class="sc-AxiKw doAfSR"
+  >
+    <h1>
+       Start Shuffling! 
+    </h1>
+  </div>
 </div>
 `;
