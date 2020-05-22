@@ -121,7 +121,7 @@ exports[`Dashboard renders 1`] = `
           value="Germany"
         />
         <svg
-          aria-hidden="true"
+          aria-hidden={true}
           className="MuiSvgIcon-root MuiSelect-icon"
           focusable="false"
           viewBox="0 0 24 24"
