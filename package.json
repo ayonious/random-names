@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Generate Random Names Based on Region",
   "keywords": ["react", "game", "fun", "randomization"],
-  "engines": {
-    "node": "11.15.0"
-  },
   "dependencies": {
     "@material-ui/core": "4.9.14",
     "react": "16.13.1",
