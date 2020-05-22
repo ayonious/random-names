@@ -1,8 +1,8 @@
 {
   "name": "name-generator",
-  "version": "1.0.105",
+  "version": "1.0.0",
   "description": "Generate Random Names Based on Region",
-  "keywords": [],
+  "keywords": ["react", "game", "fun", "randomization"],
   "engines": {
     "node": "11.15.0"
   },
