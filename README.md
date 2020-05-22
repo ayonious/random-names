@@ -23,13 +23,9 @@ npm run start
 
 ## 🎓 Things I played around with
 
-1. Simplest react app (create react app used partially)
+1. Simplest react app (raw webpack and babbel)
 2. Typescript
 3. material ui
 4. State/Props/events
 5. Deploy to Netlify
 6. Creating CI in Travis to run tests during pr creation
-
-## 🚀 Deploy Yourself
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ayonious/random-names)
