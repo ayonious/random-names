@@ -17,6 +17,9 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# dist directory created by ts
+dist
+
 # nyc test coverage
 .nyc_output
 
@@ -42,8 +45,9 @@ typings/
 # Optional npm cache directory
 .npm
 
-# Optional eslint cache
+# eslint
 .eslintcache
+.eslintrc.json
 
 # Optional REPL history
 .node_repl_history
@@ -60,3 +64,22 @@ typings/
 # next.js build output
 .next
 
+# tests (not to add tests when publishing)
+test
+coverage
+
+# jest configuration
+jestconfig.json
+
+# ts configuration
+tsconfig.json
+
+# other plugins
+renovate.json
+.travis.yml
+static-resources
+src
+index.ts
+.huskyrc.json
+.prettierrc
+.prettierignore
