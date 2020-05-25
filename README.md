@@ -30,4 +30,3 @@ npm run start
 5. Deploy to Netlify
 6. Creating CI in Travis to run tests during pr creation
 7. Integration testing with cypress
-8. Unit testing with React testing library
