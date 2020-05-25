@@ -9,12 +9,13 @@
     "randomization"
   ],
   "dependencies": {
-    "@material-ui/core": "4.9.14",
+    "@material-ui/core": "4.10.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "styled-components": "5.1.0"
   },
   "scripts": {
+    "cypress": "node_modules/.bin/cypress open",
     "start": "webpack-dev-server --open --mode development",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "build": "webpack --mode production",
@@ -39,6 +40,7 @@
     "@types/styled-components": "5.1.0",
     "@types/webpack-env": "^1.15.2",
     "babel-loader": "^8.1.0",
+    "cypress": "^4.6.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
