@@ -1,5 +1,5 @@
 describe('Integration Tests', () => {
-  it('initial page should be empty', () => {
+  it('initial page should have no name shown', () => {
     cy.visit('http://localhost:8080');
     cy.get('.MuiCard-root').invoke('text').should('contain', '');
   });
