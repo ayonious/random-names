@@ -31,3 +31,7 @@ npm run start
 6. Creating CI in Travis to run tests during pr creation
 7. Integration testing with cypress
 8. Unit testing with React-testing-library
+
+## 🚀 Deploy Yourself
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ayonious/random-names)
