@@ -3,9 +3,10 @@ describe('Integration Tests', () => {
     cy.visit('http://localhost:8080');
   });
 
-  it('initial page should have => 1.no name shown, 2.shuffle button', () => {
+  it('initial page should have => 1.no name shown, 2.shuffle button 3.Start_Shuffle Text', () => {
     cy.get('.MuiCard-root').invoke('text').should('contain', '');
     cy.contains('Shuffle');
+    cy.contains('Start Shuffling!');
   });
 
   it('After clicking on shuffle => should see a name', () => {
