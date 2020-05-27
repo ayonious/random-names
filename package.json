@@ -18,7 +18,8 @@
     "cypress-headless": "cypress run --browser chrome --headless",
     "cypress-web": "cypress open",
     "start": "webpack-dev-server --open --mode development",
-    "test-integration": "start-server-and-test start http://localhost:8080 cypress-headless",
+    "start-headless": "webpack-dev-server --mode development",
+    "test-integration": "start-server-and-test start-headless http://localhost:8080 cypress-headless",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "build": "webpack --mode production",
     "test": "jest --config jestconfig.json"
