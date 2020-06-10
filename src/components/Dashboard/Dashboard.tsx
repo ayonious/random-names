@@ -2,7 +2,7 @@ import FormControl from '@material-ui/core/FormControl';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
-import * as React from 'react';
+import React, { useState } from 'react';
 
 import { database } from '../../resources/Database';
 import { FormWrapper } from './styles';
@@ -15,44 +15,39 @@ interface Props {}
 
 interface State {
   selectedCountry: string;
-  currentName: string;
 }
-export default class Dashboard extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.onSelectOption = this.onSelectOption.bind(this);
-    this.state = { selectedCountry: 'Germany', currentName: '' };
-  }
+const Dashboard = () => {
+  const [selectedCountry, changeSelectedCountry] = useState('Germany');
 
-  onSelectOption(event: any) {
-    this.setState({ selectedCountry: event.target.value });
-  }
+  const onSelectOption = (event: any) => {
+    changeSelectedCountry(event.target.value);
+  };
 
-  render() {
-    const selectList = regions.map((region) => (
-      <MenuItem key={region} value={region}>
-        {database[region].flag} {region}
-      </MenuItem>
-    ));
-    return (
+  const selectList = regions.map((region) => (
+    <MenuItem key={region} value={region}>
+      {database[region].flag} {region}
+    </MenuItem>
+  ));
+  return (
+    <div>
       <div>
-        <div>
-          <Greeting />
-        </div>
-        <FormWrapper>
-          <FormControl className="myFormClass">
-            <Select
-              value={this.state.selectedCountry}
-              onChange={this.onSelectOption}
-              autoWidth={false}
-            >
-              {selectList}
-            </Select>
-            <FormHelperText>Region</FormHelperText>
-          </FormControl>
-          <CountryReults country={this.state.selectedCountry} />
-        </FormWrapper>
+        <Greeting />
       </div>
-    );
-  }
-}
+      <FormWrapper>
+        <FormControl className="myFormClass">
+          <Select
+            value={selectedCountry}
+            onChange={onSelectOption}
+            autoWidth={false}
+          >
+            {selectList}
+          </Select>
+          <FormHelperText>Region</FormHelperText>
+        </FormControl>
+        <CountryReults country={selectedCountry} />
+      </FormWrapper>
+    </div>
+  );
+};
+
+export default Dashboard;

@@ -1,5 +1,5 @@
 import Button from '@material-ui/core/Button';
-import * as React from 'react';
+import React from 'react';
 
 import { CenteredFlexDevWrapper } from './styles';
 

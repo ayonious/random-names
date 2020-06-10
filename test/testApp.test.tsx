@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { render } from '@testing-library/react';
 import CountryResults from '../src/components/CountryResults/CountryResults';
 import Dashboard from '../src/components/Dashboard/Dashboard';
