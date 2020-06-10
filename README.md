@@ -17,8 +17,8 @@ https://random-names.netlify.app
 ## 🏃‍♂️ Local Running instruction
 
 ```
-npm install
-npm run start
+yarn
+yarn run start
 ```
 
 ## 🎓 Things I played around with
