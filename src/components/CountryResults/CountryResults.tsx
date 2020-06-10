@@ -1,5 +1,5 @@
 import Card from '@material-ui/core/Card';
-import * as React from 'react';
+import React, { useState } from 'react';
 
 import { database } from '../../resources/Database';
 import { CardWrapper } from './styles';
@@ -9,37 +9,29 @@ interface Props {
   country: string;
 }
 
-interface State {
-  currentName: string;
-}
+const CountryReults = (props: Props) => {
+  const [currentName, changeName] = useState('');
 
-export default class CountryReults extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.handleShuffle = this.handleShuffle.bind(this);
-    this.state = { currentName: '' };
-  }
-
-  handleShuffle() {
+  const handleShuffle = () => {
     const index = Math.floor(
-      Math.random() * Object.keys(database[this.props.country].names).length
+      Math.random() * Object.keys(database[props.country].names).length
     );
-    const name = database[this.props.country].names[index];
-    this.setState({ currentName: name });
-  }
+    const name = database[props.country].names[index];
+    changeName(name);
+  };
 
-  render() {
-    return (
+  return (
+    <div>
+      <br />
+      <CardWrapper>
+        <Card square={true}> {currentName} </Card>
+      </CardWrapper>
+      <br />
       <div>
-        <br />
-        <CardWrapper>
-          <Card square={true}> {this.state.currentName} </Card>
-        </CardWrapper>
-        <br />
-        <div>
-          <CustomButton onClick={this.handleShuffle} title={'Shuffle'} />{' '}
-        </div>
+        <CustomButton onClick={handleShuffle} title={'Shuffle'} />{' '}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default CountryReults;
