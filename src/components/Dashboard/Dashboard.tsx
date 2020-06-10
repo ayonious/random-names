@@ -4,9 +4,9 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 import * as React from 'react';
 
-import { database } from '../resources/Database';
+import { database } from '../../resources/Database';
 import { FormWrapper } from './styles';
-import CountryReults from './CountryResults/CountryResults';
+import CountryReults from '../CountryResults/CountryResults';
 import Greeting from '../Greeting/Greeting';
 
 const regions = Object.keys(database);
