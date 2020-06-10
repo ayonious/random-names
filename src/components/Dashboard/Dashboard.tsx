@@ -5,9 +5,9 @@ import Select from '@material-ui/core/Select';
 import * as React from 'react';
 
 import { database } from '../resources/Database';
-import { FormWrapper } from '../styles/styles';
-import CountryReults from './CountryResults';
-import { Greeting } from './Utils';
+import { FormWrapper } from './styles';
+import CountryReults from './CountryResults/CountryResults';
+import Greeting from '../Greeting/Greeting';
 
 const regions = Object.keys(database);
 
