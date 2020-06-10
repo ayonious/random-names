@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import CountryResults from '../src/components/CountryResults';
-import Dashboard from '../src/components/Dashboard';
-import { CustomButton, Greeting } from '../src/components/Utils';
+import CountryResults from '../src/components/CountryResults/CountryResults';
+import Dashboard from '../src/components/Dashboard/Dashboard';
+import Greeting from '../src/components/Greeting/Greeting';
+import CustomButton from '../src/components/CustomButton/CustomButton';
 
 it('CountryResults renders', () => {
   const { container } = render(<CountryResults country="Germany" />);

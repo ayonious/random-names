@@ -1,9 +1,9 @@
 import Card from '@material-ui/core/Card';
 import * as React from 'react';
 
-import { database } from '../resources/Database';
+import { database } from '../../resources/Database';
 import { CardWrapper } from './styles';
-import { CustomButton } from './Utils';
+import CustomButton from '../CustomButton/CustomButton';
 
 interface Props {
   country: string;

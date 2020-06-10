@@ -17,3 +17,5 @@ const CustomButton = (props: Props) => {
     </CenteredFlexDevWrapper>
   );
 };
+
+export default CustomButton;
