@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import { database } from '../../resources/Database';
 import { CardWrapper } from './styles';
-import CustomButton from '../CustomButton/CustomButton';
+import CustomButton from '../CustomButton';
 
 interface Props {
   country: string;

@@ -96,7 +96,9 @@ exports[`Dashboard renders 1`] = `
             Germany
           </div>
           <input
-            type="hidden"
+            aria-hidden="true"
+            class="MuiSelect-nativeInput"
+            tabindex="-1"
             value="Germany"
           />
           <svg

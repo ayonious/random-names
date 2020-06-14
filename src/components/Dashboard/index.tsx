@@ -6,8 +6,8 @@ import React, { useState } from 'react';
 
 import { database } from '../../resources/Database';
 import { FormWrapper } from './styles';
-import CountryReults from '../CountryResults/CountryResults';
-import Greeting from '../Greeting/Greeting';
+import CountryReults from '../CountryResults';
+import Greeting from '../Greeting';
 
 const regions = Object.keys(database);
 
