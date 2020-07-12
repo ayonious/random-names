@@ -18,7 +18,7 @@ https://random-names.netlify.app
 
 ```
 yarn
-yarn run start
+yarn start
 ```
 
 ## 🎓 Things I played around with
