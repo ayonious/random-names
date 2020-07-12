@@ -2,6 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bc1e27c9-e5eb-47fc-a459-cacbcf09421f/deploy-status)](https://app.netlify.com/sites/random-names/deploys)
 [![Build Status](https://travis-ci.org/ayonious/random-names.svg?branch=master)](https://travis-ci.org/ayonious/random-names)
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Ayonious/random-names)
 [![codecov](https://codecov.io/gh/ayonious/random-names/branch/master/graph/badge.svg)](https://codecov.io/gh/ayonious/random-names)
 
 Simple React app to show random names from different Regions
