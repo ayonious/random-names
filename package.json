@@ -23,8 +23,14 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "build": "webpack --mode production",
     "test": "jest --config jestconfig.json",
+<<<<<<< Updated upstream
     "visual-test": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress run",
     "visual-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open"
+=======
+    "visual-and-integration-test-run": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress run",
+    "visual-and-integration-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open",
+    "visual-and-integration-test": "start-server-and-test start-headless http://localhost:8080 visual-and-integration-test-run"
+>>>>>>> Stashed changes
   },
   "browserslist": [
     ">0.2%",
