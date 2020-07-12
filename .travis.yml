@@ -2,12 +2,18 @@ language: node_js
 node_js:
   - stable
   - '--lts'
+addons:
+  apt:
+    packages:
+      # cypress dep
+      - libgconf-2-4
+cache:
+  yarn: true
+  directories:
+    - ~/.npm
+    - ~/.cache
+    - node_modules
 before_script:
   - yarn run test-integration
 after_success:
   - bash <(curl -s https://codecov.io/bash) -e TRAVIS_NODE_VERSION
-# This block is only used because we are using yarn
-cache:
-  yarn: true
-  directories:
-    - cypress
