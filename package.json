@@ -26,7 +26,7 @@
     "visual-test": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress run",
     "visual-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open",
     "test": "yarn visual-test",
-    "test:ci": "DETERMINISTIC=true start-server-and-test 8000"
+    "test-integration-and-visual": "start-server-and-test start-headless http://localhost:8080 visual-test"
   },
   "browserslist": [
     ">0.2%",
