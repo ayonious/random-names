@@ -23,8 +23,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "build": "webpack --mode production",
     "test": "jest --config jestconfig.json",
-    "visual-test": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress run",
-    "visual-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open"
+    "visual-test-run": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress run",
+    "visual-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open",
+    "visual-test": "start-server-and-test start-headless http://localhost:8080 visual-test"
   },
   "browserslist": [
     ">0.2%",
