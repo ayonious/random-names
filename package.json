@@ -22,15 +22,11 @@
     "test-integration": "start-server-and-test start-headless http://localhost:8080 cypress-headless",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "build": "webpack --mode production",
-    "test": "jest --config jestconfig.json",
-<<<<<<< Updated upstream
+    "unit-test": "jest --config jestconfig.json",
     "visual-test": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress run",
-    "visual-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open"
-=======
-    "visual-and-integration-test-run": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress run",
-    "visual-and-integration-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open",
-    "visual-and-integration-test": "start-server-and-test start-headless http://localhost:8080 visual-and-integration-test-run"
->>>>>>> Stashed changes
+    "visual-test-open": "percy exec -t 350 -h cdn-images-1.medium.com -- cypress open",
+    "test": "yarn visual-test",
+    "test:ci": "DETERMINISTIC=true start-server-and-test 8000"
   },
   "browserslist": [
     ">0.2%",
