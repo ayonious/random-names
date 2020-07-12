@@ -22,6 +22,25 @@ yarn
 yarn start
 ```
 
+## 🏃‍♂️ Run unit test
+
+```
+yarn start
+yarn run unit-test
+```
+
+## 🏃‍♂️ Run Cypress tests
+
+```
+yarn test-integration
+```
+
+## 🏃‍♂️ Run Percy/Cypress integration tests and visual tests
+
+```
+yarn test-integration-and-visual
+```
+
 ## 🎓 Things I played around with
 
 1. Simplest react app (raw webpack and babbel)
