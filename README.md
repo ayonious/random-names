@@ -22,6 +22,43 @@ yarn
 yarn start
 ```
 
+## 🏃‍♂️ Run unit test
+
+```
+yarn start
+yarn run unit-test
+```
+
+## 🏃‍♂️ Run Cypress integration tests
+
+One Command (to be run with headless browser and pr checker / ci-cd pipeline)
+
+```
+yarn test-integration
+```
+
+Two command (to see the results on nice UI) run in different tabs
+
+```
+yarn start
+yarn cypress-web
+```
+
+## 🏃‍♂️ Run Percy/Cypress integration tests and visual tests
+
+One Command (to be run with headless browser and pr checker / ci-cd pipeline)
+
+```
+yarn test-integration-and-visual
+```
+
+Two command (to see the results on nice UI). run in different tabs
+
+```
+yarn start
+yarn visual-test
+```
+
 ## 🎓 Things I played around with
 
 1. Simplest react app (raw webpack and babbel)
