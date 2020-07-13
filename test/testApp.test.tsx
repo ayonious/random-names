@@ -1,4 +1,6 @@
 import React from 'react';
+import expect from 'expect';
+
 import { render } from '@testing-library/react';
 import CountryResults from '../src/components/CountryResults';
 import Dashboard from '../src/components/Dashboard';
