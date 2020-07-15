@@ -632,4 +632,21 @@ export const database: Database = {
       'Zuhal',
     ],
   },
+  Peru: {
+    flag: '🇵🇪',
+    names: [
+      'Alberto',
+      'Alegrando',
+      'Andrea',
+      'Angel',
+      'Armando',
+      'Fernando',
+      'Gabriel',
+      'Jhon',
+      'Jorge',
+      'Nestor',
+      'Rosa',
+      'Rosario',
+    ],
+  },
 };
