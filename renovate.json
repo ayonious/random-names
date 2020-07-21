@@ -1,11 +1,9 @@
 {
-  "packageRules": [
-    {
-      "schedule": "before 3am on Monday",
-      "depTypeList": ["devDependencies", "peerDependencies", "dependencies"],
-      "updateTypes": ["patch", "minor", "major"],
-      "groupName": "combined weekly update"
-    },
-  ],
-  "automerge": true,
+	"packageRules": [{
+		"schedule": "before 3am on Monday",
+		"depTypeList": ["devDependencies", "peerDependencies", "dependencies"],
+		"updateTypes": ["patch", "minor", "major"],
+		"groupName": "combined weekly update"
+	}],
+	"automerge": true
 }
