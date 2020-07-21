@@ -22,7 +22,7 @@ yarn
 yarn start
 ```
 
-## 🏃‍♂️ Run unit test
+## 🧪 Run unit test
 
 ```
 yarn start
