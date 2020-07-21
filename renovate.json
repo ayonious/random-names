@@ -7,8 +7,5 @@
       "groupName": "combined weekly update"
     },
   ],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "automerge": true,
 }
