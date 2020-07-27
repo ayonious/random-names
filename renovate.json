@@ -1,9 +1,10 @@
 {
-	"packageRules": [{
-		"schedule": "before 3am on Monday",
-		"depTypeList": ["devDependencies", "peerDependencies", "dependencies"],
-		"updateTypes": ["patch", "minor", "major"],
-		"groupName": "combined weekly update"
-	}],
-	"automerge": true
+  "extends": ["config:base"],
+  "rangeStrategy": "bump",
+  "bumpVersion": "patch",
+  "automerge": true,
+  "schedule": "before 3am on Monday",
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
