@@ -4,6 +4,7 @@
       "depTypeList": [
         "devDependencies, dependencies"
       ],
+      "schedule": "before 3am on Monday",
       "rangeStrategy": "replace"
     }
   ]
