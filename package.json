@@ -54,7 +54,7 @@
     "husky": "^4.2.5",
     "jest": "26.2.2",
     "prettier": "2.0.5",
-    "pretty-quick": "2.0.1",
+    "pretty-quick": "2.0.2",
     "react-test-renderer": "^16.13.1",
     "start-server-and-test": "^1.11.2",
     "ts-jest": "^26.1.3",
