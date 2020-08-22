@@ -52,7 +52,7 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
-    "jest": "26.2.2",
+    "jest": "26.4.2",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1",
     "react-test-renderer": "^16.13.1",
