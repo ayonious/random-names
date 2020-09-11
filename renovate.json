@@ -1,11 +1,10 @@
 {
-  "packageRules": [
-    {
-      "depTypeList": [
-        "devDependencies, dependencies"
-      ],
-      "schedule": "before 3am on Monday",
-      "rangeStrategy": "replace"
-    }
-  ]
+  "extends": ["config:base"],
+  "rangeStrategy": "bump",
+  "bumpVersion": "patch",
+  "automerge": true,
+  "schedule": "before 3am on Monday",
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
