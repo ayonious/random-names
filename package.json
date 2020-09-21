@@ -1,6 +1,6 @@
 {
   "name": "name-generator",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Generate Random Names Based on Region",
   "keywords": [
     "react",
@@ -41,7 +41,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@percy/cypress": "^2.3.1",
     "@testing-library/react": "^11.0.4",
-    "@types/jest": "^26.0.13",
+    "@types/jest": "^26.0.14",
     "@types/react": "16.9.49",
     "@types/react-dom": "16.9.8",
     "@types/react-test-renderer": "^16.9.3",
