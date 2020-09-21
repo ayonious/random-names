@@ -9,6 +9,7 @@ import Brazil from './countryInput/Brazil.json';
 import India from './countryInput/India.json';
 import Turkey from './countryInput/Turkey.json';
 import Peru from './countryInput/Peru.json';
+import Iran from './countryInput/Iran.json';
 
 interface CountryInput {
   flag: string;
@@ -33,4 +34,5 @@ export const database: Database = {
   India: India,
   Turkey: Turkey,
   Peru: Peru,
+  Iran: Iran,
 };
