@@ -10,6 +10,7 @@ import India from './countryInput/India.json';
 import Turkey from './countryInput/Turkey.json';
 import Peru from './countryInput/Peru.json';
 import Iran from './countryInput/Iran.json';
+import Egypt from './countryInput/Egypt.json';
 
 interface CountryInput {
   flag: string;
@@ -23,16 +24,17 @@ interface Database {
 }
 
 export const database: Database = {
-  Germany: Germany,
-  Italy: Italy,
-  Spain: Spain,
-  France: France,
-  Russia: Russia,
-  Bangladesh: Bangladesh,
-  Brazil: Brazil,
-  USA: USA,
-  India: India,
-  Turkey: Turkey,
-  Peru: Peru,
-  Iran: Iran,
+  Germany,
+  Italy,
+  Spain,
+  France,
+  Russia,
+  Bangladesh,
+  Brazil,
+  USA,
+  India,
+  Turkey,
+  Peru,
+  Iran,
+  Egypt
 };
