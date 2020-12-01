@@ -39,7 +39,7 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "@babel/preset-typescript": "^7.12.7",
-    "@percy/cypress": "^2.3.2",
+    "@percy/cypress": "^2.3.3",
     "@testing-library/react": "^11.2.2",
     "@types/jest": "^26.0.15",
     "@types/react": "17.0.0",
