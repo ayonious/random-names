@@ -10,7 +10,9 @@ import {
   SelectTitleWrapper,
   SelectWrapper,
   SelectItemWrapper,
+  CustomSelectStyles,
 } from './styles';
+import { theme } from '../../../config';
 
 const regions = Object.keys(database);
 
@@ -34,7 +36,7 @@ const Dashboard = () => {
     <div>
       <GithubCorner
         href="https://github.com/ayonious/random-names"
-        bannerColor="#5f32b3"
+        bannerColor={theme.primaryColor}
       />
       <div>
         <Greeting />
@@ -43,6 +45,7 @@ const Dashboard = () => {
         <SelectWrapper>
           <SelectItemWrapper>
             <Select
+              styles={CustomSelectStyles}
               defaultValue={selectList[0]}
               isSearchable={true}
               name="country list"
