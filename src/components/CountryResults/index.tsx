@@ -9,7 +9,7 @@ interface Props {
   country: string;
 }
 
-const CountryReults = (props: Props) => {
+const CountryResults = (props: Props) => {
   const [currentName, changeName] = useState('');
 
   const handleShuffle = () => {
@@ -34,4 +34,4 @@ const CountryReults = (props: Props) => {
   );
 };
 
-export default CountryReults;
+export default CountryResults;

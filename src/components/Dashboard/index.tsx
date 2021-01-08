@@ -6,24 +6,27 @@ import React, { useState } from 'react';
 
 import { database } from '../../resources/Database';
 import { FormWrapper } from './styles';
-import CountryReults from '../CountryResults';
+import CountryResults from '../CountryResults';
 import Greeting from '../Greeting';
 
 const regions = Object.keys(database);
 
 interface Props {}
-
+interface SelectItem {
+  label: string;
+  value: string;
+}
 interface State {
   selectedCountry: string;
 }
 const Dashboard = () => {
   const [selectedCountry, changeSelectedCountry] = useState('Germany');
 
-  const onSelectOption = (event: any) => {
+  const onSelectOption = (event: SelectItem) => {
     changeSelectedCountry(event.value);
   };
 
-  const selectList = regions.map((region) => ({
+  const selectList: SelectItem[] = regions.map((region) => ({
     label: `${database[region].flag} ${region}`,
     value: region,
   }));
@@ -44,7 +47,7 @@ const Dashboard = () => {
           />
           <FormHelperText>Region</FormHelperText>
         </FormControl>
-        <CountryReults country={selectedCountry} />
+        <CountryResults country={selectedCountry} />
       </FormWrapper>
     </div>
   );
