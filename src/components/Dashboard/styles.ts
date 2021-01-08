@@ -1,11 +1,19 @@
 import styled from 'styled-components';
 
-export const FormWrapper = styled.div`
-  .myFormClass {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: 160px;
-    margin: 0 auto;
-  }
+export const FormWrapper = styled.div``;
+
+export const SelectItemWrapper = styled.div`
+  width: 200px;
+`;
+export const SelectTitleWrapper = styled.div`
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: grey;
+`;
+export const SelectWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 `;

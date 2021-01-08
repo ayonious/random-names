@@ -1,26 +1,25 @@
-import FormControl from '@material-ui/core/FormControl';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import MenuItem from '@material-ui/core/MenuItem';
-import Select, { ValueType } from 'react-select';
 import React, { useState } from 'react';
+import GithubCorner from 'react-github-corner';
+import Select, { ValueType } from 'react-select';
 
 import { database } from '../../resources/Database';
-import { FormWrapper } from './styles';
 import CountryResults from '../CountryResults';
 import Greeting from '../Greeting';
+import {
+  FormWrapper,
+  SelectTitleWrapper,
+  SelectWrapper,
+  SelectItemWrapper,
+} from './styles';
 
 const regions = Object.keys(database);
 
-interface Props {}
 interface SelectItem {
   label: string;
   value: string;
 }
-interface State {
-  selectedCountry: string;
-}
 const Dashboard = () => {
-  const [selectedCountry, changeSelectedCountry] = useState('Germany');
+  const [selectedCountry, changeSelectedCountry] = useState<string>('Germany');
 
   const onSelectOption = (event: ValueType<SelectItem, false>) => {
     changeSelectedCountry(event?.value || 'Germany');
@@ -33,20 +32,26 @@ const Dashboard = () => {
 
   return (
     <div>
+      <GithubCorner
+        href="https://github.com/ayonious/random-names"
+        bannerColor="#5f32b3"
+      />
       <div>
         <Greeting />
       </div>
       <FormWrapper>
-        <FormControl className="myFormClass">
-          <Select
-            defaultValue={selectList[0]}
-            isSearchable={true}
-            name="country list"
-            options={selectList}
-            onChange={(item, others) => onSelectOption(item)}
-          />
-          <FormHelperText>Region</FormHelperText>
-        </FormControl>
+        <SelectWrapper>
+          <SelectItemWrapper>
+            <Select
+              defaultValue={selectList[0]}
+              isSearchable={true}
+              name="country list"
+              options={selectList}
+              onChange={(item, others) => onSelectOption(item)}
+            />
+          </SelectItemWrapper>
+          <SelectTitleWrapper>Region</SelectTitleWrapper>
+        </SelectWrapper>
         <CountryResults country={selectedCountry} />
       </FormWrapper>
     </div>
