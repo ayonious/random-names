@@ -1,7 +1,7 @@
 import FormControl from '@material-ui/core/FormControl';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import MenuItem from '@material-ui/core/MenuItem';
-import Select from 'react-select';
+import Select, { ValueType } from 'react-select';
 import React, { useState } from 'react';
 
 import { database } from '../../resources/Database';
@@ -22,8 +22,8 @@ interface State {
 const Dashboard = () => {
   const [selectedCountry, changeSelectedCountry] = useState('Germany');
 
-  const onSelectOption = (event: SelectItem) => {
-    changeSelectedCountry(event.value);
+  const onSelectOption = (event: ValueType<SelectItem, false>) => {
+    changeSelectedCountry(event?.value || 'Germany');
   };
 
   const selectList: SelectItem[] = regions.map((region) => ({
@@ -43,7 +43,7 @@ const Dashboard = () => {
             isSearchable={true}
             name="country list"
             options={selectList}
-            onChange={onSelectOption}
+            onChange={(item, others) => onSelectOption(item)}
           />
           <FormHelperText>Region</FormHelperText>
         </FormControl>
