@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Generate Random Names Based on Region",
   "repository": "https://github.com/ayonious/random-names",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "react",
     "game",
