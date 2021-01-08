@@ -17,6 +17,8 @@ describe('Integration Tests', () => {
   it('Select other country => click on shuffle => should see a name', () => {
     cy.contains('Germany').click();
     cy.contains('Italy').click();
+  
+    cy.contains('Region').click();
 
     cy.contains('Italy').click();
     cy.contains('Bangladesh').click();
