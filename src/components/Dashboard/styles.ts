@@ -12,11 +12,16 @@ export const SelectTitleWrapper = styled.div`
   margin-top: 5px;
   color: ${theme.fontColor.light};
 `;
+
 export const SelectWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
+`;
+
+export const PageWrapper = styled.div`
+  margin: 50px;
 `;
 
 export const CustomSelectStyles = {

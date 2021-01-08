@@ -11,6 +11,7 @@ import {
   SelectWrapper,
   SelectItemWrapper,
   CustomSelectStyles,
+  PageWrapper,
 } from './styles';
 import { theme } from '../../../config';
 
@@ -20,6 +21,14 @@ interface SelectItem {
   label: string;
   value: string;
 }
+
+const GithubCornerPart = () => (
+  <GithubCorner
+    href="https://github.com/ayonious/random-names"
+    bannerColor={theme.primaryColor}
+  />
+);
+
 const Dashboard = () => {
   const [selectedCountry, changeSelectedCountry] = useState<string>('Germany');
 
@@ -33,14 +42,8 @@ const Dashboard = () => {
   }));
 
   return (
-    <div>
-      <GithubCorner
-        href="https://github.com/ayonious/random-names"
-        bannerColor={theme.primaryColor}
-      />
-      <div>
-        <Greeting />
-      </div>
+    <PageWrapper>
+      <Greeting />
       <FormWrapper>
         <SelectWrapper>
           <SelectItemWrapper>
@@ -57,7 +60,8 @@ const Dashboard = () => {
         </SelectWrapper>
         <CountryResults country={selectedCountry} />
       </FormWrapper>
-    </div>
+      <GithubCornerPart />
+    </PageWrapper>
   );
 };
 
