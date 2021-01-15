@@ -22,7 +22,7 @@ yarn
 yarn start
 ```
 
-## 🏃‍♂️ Run unit test
+## 🧪 Run unit test
 
 ```
 yarn start
@@ -44,7 +44,7 @@ yarn start
 yarn cypress-web
 ```
 
-## 🏃‍♂️ Run Percy/Cypress integration tests and visual tests
+## 🎥 Run Percy/Cypress integration tests and visual tests
 
 One Command (to be run with headless browser and pr checker / ci-cd pipeline)
 
