@@ -15,7 +15,7 @@ Simple React app to show random names from different Regions
 
 https://random-names.netlify.app
 
-## 🏃‍♂️ Local Running instruction
+## 🏡 Local Running instruction
 
 ```
 yarn
@@ -29,7 +29,7 @@ yarn start
 yarn run unit-test
 ```
 
-## 🏃‍♂️ Run Cypress integration tests
+## 🏗 Run Cypress integration tests
 
 One Command (to be run with headless browser and pr checker / ci-cd pipeline)
 
