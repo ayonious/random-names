@@ -11,7 +11,7 @@
     }
   ],
   "rangeStrategy": "bump",
-  "automerge": false,
+  "automerge": true,
   "schedule": "before 3am on Monday",
   "lockFileMaintenance": {
     "enabled": true
