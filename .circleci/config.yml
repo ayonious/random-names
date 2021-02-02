@@ -18,5 +18,4 @@ jobs:
           key: deps-hash-{{ checksum "yarn.lock" }}
 
       - run: yarn unit-test
-      - run: yarn test-integration-and-visual
       - run: yarn build
