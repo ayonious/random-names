@@ -27,8 +27,6 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "build": "webpack --mode production",
     "unit-test": "jest --config jestconfig.json",
-    "visual-test": "percy exec -t 750 -h cdn-images-1.medium.com -- cypress run",
-    "visual-test-open": "percy exec -t 750 -h cdn-images-1.medium.com -- cypress open",
     "test": "yarn visual-test",
     "test-integration-and-visual": "start-server-and-test start-headless http://localhost:8080 visual-test"
   },
@@ -43,7 +41,6 @@
     "@babel/preset-env": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
-    "@percy/cypress": "^3.0.0",
     "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.22",
     "@types/react": "17.0.3",

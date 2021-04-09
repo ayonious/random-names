@@ -15,6 +15,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "types": ["cypress", "@percy/cypress"]
+    "types": ["cypress"]
   }
 }
