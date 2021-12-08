@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import GithubCorner from 'react-github-corner';
-import Select, { ValueType } from 'react-select';
+import Select, { SingleValue } from 'react-select';
 
 import { database } from '../../resources/Database';
 import CountryResults from '../CountryResults';
@@ -32,7 +32,7 @@ const GithubCornerPart = () => (
 const Dashboard = () => {
   const [selectedCountry, changeSelectedCountry] = useState<string>('Germany');
 
-  const onSelectOption = (event: ValueType<SelectItem, false>) => {
+  const onSelectOption = (event: SingleValue<SelectItem>) => {
     changeSelectedCountry(event?.value || 'Germany');
   };
 
@@ -53,7 +53,7 @@ const Dashboard = () => {
               isSearchable={true}
               name="country list"
               options={selectList}
-              onChange={(item, others) => onSelectOption(item)}
+              onChange={(item: SingleValue<SelectItem>) => onSelectOption(item)}
             />
           </SelectItemWrapper>
           <SelectTitleWrapper>Region</SelectTitleWrapper>
