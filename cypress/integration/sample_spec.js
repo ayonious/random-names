@@ -15,15 +15,15 @@ describe('Integration Tests', () => {
   });
 
   it('Select other country => click on shuffle => should see a name', () => {
-    cy.contains('Germany').click();
-    cy.contains('Italy').click();
+    cy.contains('Germany').click({force: true});
+    cy.contains('Italy').click({force: true});
   
-    cy.contains('Region').click();
+    cy.contains('Region').click({force: true});
 
-    cy.contains('Italy').click();
-    cy.contains('Bangladesh').click();
+    cy.contains('Italy').click({force: true});
+    cy.contains('Bangladesh').click({force: true});
 
-    cy.contains('Shuffle').click();
+    cy.contains('Shuffle').click({force: true});
     cy.get('.MuiCard-root').invoke('text').should('match', /\w+/); // word with at least one char
   });
 });
