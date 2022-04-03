@@ -5,20 +5,19 @@ exports[`CountryResults renders 1`] = `
   <div>
     <br />
     <div
-      class="sc-bdvvtL eLeYgC"
+      class="sc-bczRLJ eyXzyt"
     >
       <div
         class="MuiPaper-root MuiCard-root MuiPaper-elevation1"
       >
          
-        
          
       </div>
     </div>
     <br />
     <div>
       <div
-        class="sc-gsDKAQ jLxKgb"
+        class="sc-gsnTZi hcNodn"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
@@ -44,7 +43,7 @@ exports[`CountryResults renders 1`] = `
 exports[`CustomButton renders 1`] = `
 <div>
   <div
-    class="sc-gsDKAQ jLxKgb"
+    class="sc-gsnTZi hcNodn"
   >
     <button
       class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
@@ -67,23 +66,23 @@ exports[`CustomButton renders 1`] = `
 exports[`Dashboard renders 1`] = `
 <div>
   <div
-    class="sc-iCfMLu HFrrt"
+    class="sc-iBkjds zVHAC"
   >
     <div
-      class="sc-dkPtRN jMJXH"
+      class="sc-dkzDqf gcKDBg"
     >
       <h1>
          Start Shuffling! 
       </h1>
     </div>
     <div
-      class="sc-hKwDye"
+      class="sc-hKMtZM"
     >
       <div
-        class="sc-gKclnd bJHvLL"
+        class="sc-gKXOVf fCgQRH"
       >
         <div
-          class="sc-eCImPb eHwmQa"
+          class="sc-eCYdqJ gTsWhs"
         >
           <div
             class=" css-b62m3t-container"
@@ -166,7 +165,7 @@ exports[`Dashboard renders 1`] = `
           </div>
         </div>
         <div
-          class="sc-jRQBWg hLnOwm"
+          class="sc-jSMfEi chTvnt"
         >
           Region
         </div>
@@ -174,20 +173,19 @@ exports[`Dashboard renders 1`] = `
       <div>
         <br />
         <div
-          class="sc-bdvvtL eLeYgC"
+          class="sc-bczRLJ eyXzyt"
         >
           <div
             class="MuiPaper-root MuiCard-root MuiPaper-elevation1"
           >
              
-            
              
           </div>
         </div>
         <br />
         <div>
           <div
-            class="sc-gsDKAQ jLxKgb"
+            class="sc-gsnTZi hcNodn"
           >
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
@@ -242,7 +240,7 @@ exports[`Dashboard renders 1`] = `
 exports[`Greeting renders 1`] = `
 <div>
   <div
-    class="sc-dkPtRN jMJXH"
+    class="sc-dkzDqf gcKDBg"
   >
     <h1>
        Start Shuffling! 
