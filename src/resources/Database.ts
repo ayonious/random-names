@@ -1,18 +1,19 @@
-import USA from './countryInput/USA.json';
-import Germany from './countryInput/Germany.json';
-import Italy from './countryInput/Italy.json';
-import Spain from './countryInput/Spain.json';
-import France from './countryInput/France.json';
-import Russia from './countryInput/Russia.json';
 import Bangladesh from './countryInput/Bangladesh.json';
 import Brazil from './countryInput/Brazil.json';
-import India from './countryInput/India.json';
-import Turkey from './countryInput/Turkey.json';
-import Peru from './countryInput/Peru.json';
-import Romania from './countryInput/Romania.json';
-import Iran from './countryInput/Iran.json';
 import Egypt from './countryInput/Egypt.json';
+import France from './countryInput/France.json';
+import Germany from './countryInput/Germany.json';
+import India from './countryInput/India.json';
+import Iran from './countryInput/Iran.json';
+import Italy from './countryInput/Italy.json';
+import Peru from './countryInput/Peru.json';
+import Poland from './countryInput/Poland.json';
+import Romania from './countryInput/Romania.json';
+import Russia from './countryInput/Russia.json';
+import Spain from './countryInput/Spain.json';
 import Switzerland from './countryInput/Switzerland.json';
+import Turkey from './countryInput/Turkey.json';
+import USA from './countryInput/USA.json';
 
 interface CountryInput {
   flag: string;
@@ -27,18 +28,19 @@ interface Database {
 
 export const database: Database = {
   Germany,
-  Italy,
-  Spain,
-  France,
-  Russia,
   Bangladesh,
   Brazil,
-  USA,
-  India,
-  Turkey,
-  Peru,
-  Romania,
-  Iran,
   Egypt,
+  France,
+  India,
+  Iran,
+  Italy,
+  Peru,
+  Poland,
+  Romania,
+  Russia,
+  Spain,
   Switzerland,
+  Turkey,
+  USA,
 };
