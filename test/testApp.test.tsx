@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import expect from 'expect';
+import { expect } from '@jest/globals';.
 
 import { render } from '@testing-library/react';
 import CountryResults from '../src/components/CountryResults';
