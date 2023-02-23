@@ -28,6 +28,7 @@
     "test-integration": "start-server-and-test start-headless http://localhost:8080 cypress-headless",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "build": "webpack --mode production",
+    "build-dev": "webpack --mode development",
     "unit-test": "jest --config jestconfig.json",
     "test": "yarn visual-test",
     "test-integration-and-visual": "start-server-and-test start-headless http://localhost:8080 visual-test"

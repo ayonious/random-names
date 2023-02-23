@@ -1,6 +1,8 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  // you can have multiple entry points for separate js here are some examples for it
+  // https://webpack.js.org/guides/output-management/
   entry: './src/index.tsx',
   module: {
     rules: [
