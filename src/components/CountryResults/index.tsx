@@ -1,4 +1,4 @@
-import Card from '@material-ui/core/Card';
+import Card from '@mui/material/Card';
 import React, { useState } from 'react';
 
 import { database } from '../../resources/Database';
