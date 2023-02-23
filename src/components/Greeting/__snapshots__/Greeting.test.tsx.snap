@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Greeting renders 1`] = `
+<div>
+  <div
+    class="sc-bcXHqe hlBtSY"
+  >
+    <h1>
+       Start Shuffling! 
+    </h1>
+  </div>
+</div>
+`;
