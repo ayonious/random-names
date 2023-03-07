@@ -19,3 +19,6 @@ jobs:
 
       - run: yarn unit-test
       - run: yarn build
+      - run:
+          name: 'Upload codecov report'
+          command: yarn codecov
