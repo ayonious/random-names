@@ -3,23 +3,23 @@
 exports[`Dashboard renders 1`] = `
 <div>
   <div
-    class="sc-iBYQkv fBTqty"
+    class="sc-iBdmCd hhuQxv"
   >
     <div
-      class="sc-dkrFOg iRdyJO"
+      class="sc-dmyDGi huzMHV"
     >
       <h1>
          Start Shuffling! 
       </h1>
     </div>
     <div
-      class="sc-hLBbgP"
+      class="sc-hLQRIN"
     >
       <div
-        class="sc-gKPRtg iEDITe"
+        class="sc-gLLvby gKfwUz"
       >
         <div
-          class="sc-eDvSVe bvXhfw"
+          class="sc-eDLJxc gMGDNt"
         >
           <div
             class=" css-b62m3t-container"
@@ -100,7 +100,7 @@ exports[`Dashboard renders 1`] = `
           </div>
         </div>
         <div
-          class="sc-jSUZER fxmiwd"
+          class="sc-jTQDnj epqAHh"
         >
           Region
         </div>
@@ -108,7 +108,7 @@ exports[`Dashboard renders 1`] = `
       <div>
         <br />
         <div
-          class="sc-bcXHqe kBQFYY"
+          class="sc-beySbM jefaWJ"
         >
           <div
             class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
@@ -120,7 +120,7 @@ exports[`Dashboard renders 1`] = `
         <br />
         <div>
           <div
-            class="sc-gswNZR fbIwTo"
+            class="sc-guDLRT imulVP"
           >
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
