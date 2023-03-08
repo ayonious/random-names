@@ -112,10 +112,8 @@ exports[`Dashboard renders 1`] = `
         >
           <div
             class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
-          >
-             
-             
-          </div>
+            data-testid="name-card"
+          />
         </div>
         <br />
         <div>
@@ -124,6 +122,7 @@ exports[`Dashboard renders 1`] = `
           >
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+              data-testid="shuffle-button"
               tabindex="0"
               type="button"
             >
@@ -133,7 +132,6 @@ exports[`Dashboard renders 1`] = `
               />
             </button>
           </div>
-           
         </div>
       </div>
     </div>

@@ -1,12 +1,12 @@
 import Card from '@mui/material/Card';
 import React, { useState } from 'react';
 
-import { database } from '../../resources/Database';
+import { CountryName, database } from '../../resources/Database';
 import { CardWrapper } from './styles';
 import CustomButton from '../CustomButton';
 
 interface Props {
-  country: string;
+  country: CountryName;
 }
 
 const CountryResults = (props: Props) => {
@@ -24,11 +24,13 @@ const CountryResults = (props: Props) => {
     <div>
       <br />
       <CardWrapper>
-        <Card square={true}> {currentName} </Card>
+        <Card data-testid="name-card" square={true}>
+          {currentName}
+        </Card>
       </CardWrapper>
       <br />
       <div>
-        <CustomButton onClick={handleShuffle} title={'Shuffle'} />{' '}
+        <CustomButton onClick={handleShuffle} title={'Shuffle'} />
       </div>
     </div>
   );

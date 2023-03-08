@@ -11,7 +11,12 @@ interface Props {
 const CustomButton = (props: Props) => {
   return (
     <CenteredFlexDevWrapper>
-      <Button variant="contained" color="primary" onClick={props.onClick}>
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={props.onClick}
+        data-testid="shuffle-button"
+      >
         {props.title}
       </Button>
     </CenteredFlexDevWrapper>

@@ -44,3 +44,5 @@ export const database: Database = {
   Turkey,
   USA,
 };
+
+export type CountryName = keyof Database;
