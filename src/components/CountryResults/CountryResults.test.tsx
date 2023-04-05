@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import { expect } from '@jest/globals';
-import { fireEvent, getNodeText, screen, render } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import React from 'react';
 
 import CountryResults from '.';
