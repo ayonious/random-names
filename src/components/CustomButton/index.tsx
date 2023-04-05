@@ -8,19 +8,17 @@ interface Props {
   onClick: () => void;
 }
 
-const CustomButton = (props: Props) => {
-  return (
-    <CenteredFlexDevWrapper>
-      <Button
-        variant="contained"
-        color="primary"
-        onClick={props.onClick}
-        data-testid="shuffle-button"
-      >
-        {props.title}
-      </Button>
-    </CenteredFlexDevWrapper>
-  );
-};
+const CustomButton = (props: Props) => (
+  <CenteredFlexDevWrapper>
+    <Button
+      variant="contained"
+      color="primary"
+      onClick={props.onClick}
+      data-testid="shuffle-button"
+    >
+      {props.title}
+    </Button>
+  </CenteredFlexDevWrapper>
+);
 
 export default CustomButton;
