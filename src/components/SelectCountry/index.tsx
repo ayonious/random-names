@@ -1,12 +1,12 @@
+import React, { useState } from 'react';
 import Select, { SingleValue } from 'react-select';
 
-import React, { useState } from 'react';
 import {
+  CustomSelectStyles,
   FormWrapper,
+  SelectItemWrapper,
   SelectTitleWrapper,
   SelectWrapper,
-  SelectItemWrapper,
-  CustomSelectStyles,
 } from './styles';
 
 export interface SelectItem {
