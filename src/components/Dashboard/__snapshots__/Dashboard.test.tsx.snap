@@ -13,13 +13,13 @@ exports[`Dashboard renders 1`] = `
       </h1>
     </div>
     <div
-      class="sc-hLseeU"
+      class="sc-gLDzan"
     >
       <div
-        class="sc-gLDzan eWUPvm"
+        class="sc-jTrPJq clmspr"
       >
         <div
-          class="sc-eDDNvR cZknbz"
+          class="sc-hLseeU fIhA-DN"
         >
           <div
             class=" css-b62m3t-container"
@@ -100,38 +100,38 @@ exports[`Dashboard renders 1`] = `
           </div>
         </div>
         <div
-          class="sc-jTrPJq gVbTbU"
+          class="sc-eDDNvR fOPNBo"
         >
           Region
         </div>
       </div>
-      <div>
-        <br />
+    </div>
+    <div>
+      <br />
+      <div
+        class="sc-beqWaB DYQFw"
+      >
         <div
-          class="sc-beqWaB DYQFw"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
+          data-testid="name-card"
+        />
+      </div>
+      <br />
+      <div>
+        <div
+          class="sc-gueYoa fGeXqi"
         >
-          <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
-            data-testid="name-card"
-          />
-        </div>
-        <br />
-        <div>
-          <div
-            class="sc-gueYoa fGeXqi"
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+            data-testid="shuffle-button"
+            tabindex="0"
+            type="button"
           >
-            <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
-              data-testid="shuffle-button"
-              tabindex="0"
-              type="button"
-            >
-              Shuffle
-              <span
-                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-              />
-            </button>
-          </div>
+            Shuffle
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
         </div>
       </div>
     </div>
