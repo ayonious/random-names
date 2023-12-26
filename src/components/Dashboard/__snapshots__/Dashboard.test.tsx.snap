@@ -3,23 +3,23 @@
 exports[`Dashboard renders 1`] = `
 <div>
   <div
-    class="sc-iAEyYk kDZVWt"
+    class="sc-iCfLYb hLQIaL"
   >
     <div
-      class="sc-dmqHEX dkZnZP"
+      class="sc-dkPuFg iGFCi"
     >
       <h1>
          Start Shuffling! 
       </h1>
     </div>
     <div
-      class="sc-gLDzan"
+      class="sc-gKcmaw"
     >
       <div
-        class="sc-jTrPJq clmspr"
+        class="sc-jRQCJB conpud"
       >
         <div
-          class="sc-hLseeU fIhA-DN"
+          class="sc-hKwCKL dEgvAj"
         >
           <div
             class=" css-b62m3t-container"
@@ -33,6 +33,7 @@ exports[`Dashboard renders 1`] = `
               aria-live="polite"
               aria-relevant="additions text"
               class="css-1f43avz-a11yText-A11yText"
+              role="log"
             />
             <div
               class=" css-13cymwt-control"
@@ -50,6 +51,7 @@ exports[`Dashboard renders 1`] = `
                   data-value=""
                 >
                   <input
+                    aria-activedescendant=""
                     aria-autocomplete="list"
                     aria-expanded="false"
                     aria-haspopup="true"
@@ -100,7 +102,7 @@ exports[`Dashboard renders 1`] = `
           </div>
         </div>
         <div
-          class="sc-eDDNvR fOPNBo"
+          class="sc-eCImbG jjhvKT"
         >
           Region
         </div>
@@ -109,7 +111,7 @@ exports[`Dashboard renders 1`] = `
     <div>
       <br />
       <div
-        class="sc-beqWaB DYQFw"
+        class="sc-bdvuGq iEGmyi"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
@@ -119,7 +121,7 @@ exports[`Dashboard renders 1`] = `
       <br />
       <div>
         <div
-          class="sc-gueYoa fGeXqi"
+          class="sc-gsDLol kLLAaC"
         >
           <button
             class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
