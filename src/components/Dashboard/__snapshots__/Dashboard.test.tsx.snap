@@ -3,23 +3,23 @@
 exports[`Dashboard renders 1`] = `
 <div>
   <div
-    class="sc-iCfLYb hLQIaL"
+    class="sc-kAycRU bhdbZo"
   >
     <div
-      class="sc-dkPuFg iGFCi"
+      class="sc-eqUzNf gbGWkB"
     >
       <h1>
          Start Shuffling! 
       </h1>
     </div>
     <div
-      class="sc-gKcmaw"
+      class="sc-gsFSjX"
     >
       <div
-        class="sc-jRQCJB conpud"
+        class="sc-iGgVNO dwmasK"
       >
         <div
-          class="sc-hKwCKL dEgvAj"
+          class="sc-fqkwJk kQZSka"
         >
           <div
             class=" css-b62m3t-container"
@@ -102,7 +102,7 @@ exports[`Dashboard renders 1`] = `
           </div>
         </div>
         <div
-          class="sc-eCImbG jjhvKT"
+          class="sc-dcJtft eWKqVg"
         >
           Region
         </div>
@@ -111,7 +111,7 @@ exports[`Dashboard renders 1`] = `
     <div>
       <br />
       <div
-        class="sc-bdvuGq iEGmyi"
+        class="sc-aYaIB ifiJgs"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
@@ -121,10 +121,10 @@ exports[`Dashboard renders 1`] = `
       <br />
       <div>
         <div
-          class="sc-gsDLol kLLAaC"
+          class="sc-gEvDqW jlhBWw"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
             data-testid="shuffle-button"
             tabindex="0"
             type="button"
