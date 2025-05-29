@@ -5,28 +5,26 @@ exports[`CountryResults renders 1`] = `
   <div>
     <br />
     <div
-      class="sc-aYaIB ifiJgs"
+      class="sc-bXdtCk gHaEXV"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1fcgr4r-MuiPaper-root-MuiCard-root"
         data-testid="name-card"
+        style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
       />
     </div>
     <br />
     <div>
       <div
-        class="sc-gEvDqW jlhBWw"
+        class="sc-hKDTPf epahpa"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-74d805-MuiButtonBase-root-MuiButton-root"
           data-testid="shuffle-button"
           tabindex="0"
           type="button"
         >
           Shuffle
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </button>
       </div>
     </div>

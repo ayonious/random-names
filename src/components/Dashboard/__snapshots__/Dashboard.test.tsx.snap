@@ -3,26 +3,27 @@
 exports[`Dashboard renders 1`] = `
 <div>
   <div
-    class="sc-kAycRU bhdbZo"
+    class="sc-jZhnRx jMDxju"
+    data-testid="page-wrapper"
   >
     <div
-      class="sc-eqUzNf gbGWkB"
+      class="sc-fmZSGO hqbtAB"
     >
       <h1>
          Start Shuffling! 
       </h1>
     </div>
     <div
-      class="sc-gsFSjX"
+      class="sc-hoLldG"
     >
       <div
-        class="sc-iGgVNO dwmasK"
+        class="sc-jMpmlX iGsiPb"
       >
         <div
-          class="sc-fqkwJk kQZSka"
+          class="sc-gwsNht hGJrwY"
         >
           <div
-            class=" css-b62m3t-container"
+            class="css-b62m3t-container"
           >
             <span
               class="css-1f43avz-a11yText-A11yText"
@@ -36,18 +37,18 @@ exports[`Dashboard renders 1`] = `
               role="log"
             />
             <div
-              class=" css-13cymwt-control"
+              class="css-13cymwt-control"
             >
               <div
-                class=" css-1fdsijx-ValueContainer"
+                class="css-hlgwow"
               >
                 <div
-                  class=" css-1dimb5e-singleValue"
+                  class="css-1dimb5e-singleValue"
                 >
                   🇩🇪 Germany
                 </div>
                 <div
-                  class=" css-qbdosj-Input"
+                  class="css-19bb58m"
                   data-value=""
                 >
                   <input
@@ -70,14 +71,14 @@ exports[`Dashboard renders 1`] = `
                 </div>
               </div>
               <div
-                class=" css-1hb7zxy-IndicatorsContainer"
+                class="css-1wy0on6"
               >
                 <span
-                  class=" css-1u9des2-indicatorSeparator"
+                  class="css-1u9des2-indicatorSeparator"
                 />
                 <div
                   aria-hidden="true"
-                  class=" css-1xc3v61-indicatorContainer"
+                  class="css-1xc3v61-indicatorContainer"
                 >
                   <svg
                     aria-hidden="true"
@@ -102,7 +103,7 @@ exports[`Dashboard renders 1`] = `
           </div>
         </div>
         <div
-          class="sc-dcJtft eWKqVg"
+          class="sc-dYOLZc CMNKx"
         >
           Region
         </div>
@@ -111,28 +112,26 @@ exports[`Dashboard renders 1`] = `
     <div>
       <br />
       <div
-        class="sc-aYaIB ifiJgs"
+        class="sc-bXdtCk gHaEXV"
       >
         <div
-          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1vqzrnv-MuiPaper-root-MuiCard-root"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1fcgr4r-MuiPaper-root-MuiCard-root"
           data-testid="name-card"
+          style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
         />
       </div>
       <br />
       <div>
         <div
-          class="sc-gEvDqW jlhBWw"
+          class="sc-hKDTPf epahpa"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-74d805-MuiButtonBase-root-MuiButton-root"
             data-testid="shuffle-button"
             tabindex="0"
             type="button"
           >
             Shuffle
-            <span
-              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-            />
           </button>
         </div>
       </div>
