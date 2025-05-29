@@ -23,11 +23,15 @@ const Dashboard = () => {
   }));
 
   return (
-    <PageWrapper>
-      <Greeting />
-      <SelectCountry selectList={selectList} onSelectOption={onSelectOption} />
-      <CountryResults country={selectedCountry} />
-      <GithubCornerPart />
+    <PageWrapper data-testid="page-wrapper">
+      <Greeting data-testid="greeting" />
+      <SelectCountry 
+        data-testid="country-select"
+        selectList={selectList} 
+        onSelectOption={onSelectOption} 
+      />
+      <CountryResults data-testid="country-results" country={selectedCountry} />
+      <GithubCornerPart data-testid="github-corner" />
     </PageWrapper>
   );
 };
