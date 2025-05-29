@@ -8,17 +8,14 @@ jobs:
       - restore_cache:
           keys:
             - deps-hash-{{ checksum "yarn.lock" }}
-            - deps-hash- # used if checksum fails
-
+            - deps-hash-
       - run: yarn install
-
       - save_cache:
           paths:
             - node_modules
           key: deps-hash-{{ checksum "yarn.lock" }}
-
       - run: yarn unit-test
       - run: yarn build
       - run:
-          name: 'Upload codecov report'
+          name: Upload codecov report
           command: yarn codecov
