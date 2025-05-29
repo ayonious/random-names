@@ -2,7 +2,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bc1e27c9-e5eb-47fc-a459-cacbcf09421f/deploy-status)](https://app.netlify.com/sites/random-names/deploys)
 [![CircleCI](https://circleci.com/gh/ayonious/random-names.svg?style=svg)](https://circleci.com/gh/ayonious/random-names)
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Ayonious/random-names)
 [![codecov](https://codecov.io/gh/ayonious/random-names/branch/master/graph/badge.svg)](https://codecov.io/gh/ayonious/random-names)
 [![Cypress Tests](https://github.com/ayonious/random-names/actions/workflows/cypress.yml/badge.svg)](https://github.com/ayonious/random-names/actions/workflows/cypress.yml)
 
