@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Integration Tests', () => {
   beforeEach(() => {
     cy.visit('http://localhost:8080');
@@ -15,15 +17,15 @@ describe('Integration Tests', () => {
   });
 
   it('Select other country => click on shuffle => should see a name', () => {
-    cy.contains('Germany').click({force: true});
-    cy.contains('Italy').click({force: true});
+    cy.contains('Germany').click({ force: true });
+    cy.contains('Italy').click({ force: true });
   
-    cy.contains('Region').click({force: true});
+    cy.contains('Region').click({ force: true });
 
-    cy.contains('Italy').click({force: true});
-    cy.contains('Bangladesh').click({force: true});
+    cy.contains('Italy').click({ force: true });
+    cy.contains('Bangladesh').click({ force: true });
 
-    cy.contains('Shuffle').click({force: true});
+    cy.contains('Shuffle').click({ force: true });
     cy.get('.MuiCard-root').invoke('text').should('match', /\w+/); // word with at least one char
   });
-});
+}); 
