@@ -4,6 +4,7 @@
 [![CircleCI](https://circleci.com/gh/ayonious/random-names.svg?style=svg)](https://circleci.com/gh/ayonious/random-names)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Ayonious/random-names)
 [![codecov](https://codecov.io/gh/ayonious/random-names/branch/master/graph/badge.svg)](https://codecov.io/gh/ayonious/random-names)
+[![Cypress Tests](https://github.com/ayonious/random-names/actions/workflows/cypress.yml/badge.svg)](https://github.com/ayonious/random-names/actions/workflows/cypress.yml)
 [![tested with Cypress](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
 Simple React app to show random names from different Regions
