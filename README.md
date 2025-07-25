@@ -1,7 +1,7 @@
 # Random Names
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bc1e27c9-e5eb-47fc-a459-cacbcf09421f/deploy-status)](https://app.netlify.com/sites/random-names/deploys)
-[![CircleCI](https://circleci.com/gh/ayonious/random-names.svg?style=svg)](https://circleci.com/gh/ayonious/random-names)
+[![CI](https://github.com/ayonious/random-names/workflows/CI/badge.svg)](https://github.com/ayonious/random-names/actions)
 [![codecov](https://codecov.io/gh/ayonious/random-names/branch/master/graph/badge.svg)](https://codecov.io/gh/ayonious/random-names)
 [![Cypress Tests](https://github.com/ayonious/random-names/actions/workflows/cypress.yml/badge.svg)](https://github.com/ayonious/random-names/actions/workflows/cypress.yml)
 
