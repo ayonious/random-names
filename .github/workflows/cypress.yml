@@ -13,9 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 22.16.0
+          node-version: 22.20.0
           cache: yarn
       - name: Install dependencies
         run: yarn install --frozen-lockfile
