@@ -1,0 +1,41 @@
+name: Dependabot auto-merge
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  statuses: read
+  actions: read
+
+jobs:
+  merge:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # Do not check out or execute code from the pull request in this privileged job.
+      - name: Merge Dependabot updates after all checks pass
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          set -euo pipefail
+          pr_number=$(gh pr list --head "$HEAD_BRANCH" --state open \
+            --json number,author,headRefOid,isCrossRepository \
+            --jq ".[] | select(.author.login == \"app/dependabot\" and .headRefOid == \"$HEAD_SHA\" and .isCrossRepository == false) | .number")
+          if [ -z "$pr_number" ]; then
+            echo "No matching Dependabot pull request."
+            exit 0
+          fi
+          gh pr checks "$pr_number" --watch --fail-fast --interval 30
+          gh pr merge "$pr_number" --merge --match-head-commit "$HEAD_SHA"
