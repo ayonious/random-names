@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { SingleValue } from 'react-select';
+import type { SingleValue } from 'react-select';
 
 import { database } from '../../resources/Database';
 import CountryResults from '../CountryResults';
 import GithubCornerPart from '../GithubCornerPart';
 import Greeting from '../Greeting';
-import SelectCountry, { SelectItem } from '../SelectCountry';
+import SelectCountry from '../SelectCountry';
+import type { SelectItem } from '../SelectCountry';
 import { PageWrapper } from './styles';
 
 const regions = Object.keys(database);
