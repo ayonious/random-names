@@ -1,7 +1,8 @@
 import Card from '@mui/material/Card';
 import React, { useState } from 'react';
 
-import { CountryName, database } from '../../resources/Database';
+import { database } from '../../resources/Database';
+import type { CountryName } from '../../resources/Database';
 import { CardWrapper } from './styles';
 import CustomButton from '../CustomButton';
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Select, { SingleValue } from 'react-select';
+import Select from 'react-select';
+import type { SingleValue } from 'react-select';
 
 import {
   CustomSelectStyles,
