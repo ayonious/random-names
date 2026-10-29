@@ -3,24 +3,24 @@
 exports[`Dashboard renders 1`] = `
 <div>
   <div
-    class="sc-jZhnRx jMDxju"
+    class="sc-iCoJwv cOtLKu"
     data-testid="page-wrapper"
   >
     <div
-      class="sc-fmZSGO hqbtAB"
+      class="sc-dlnlqM bilsWr"
     >
       <h1>
          Start Shuffling! 
       </h1>
     </div>
     <div
-      class="sc-hoLldG"
+      class="sc-gKzZKs"
     >
       <div
-        class="sc-jMpmlX iGsiPb"
+        class="sc-jSFiLV jbGicH"
       >
         <div
-          class="sc-gwsNht hGJrwY"
+          class="sc-hKFxhv gkYoNQ"
         >
           <div
             class="css-b62m3t-container"
@@ -63,7 +63,7 @@ exports[`Dashboard renders 1`] = `
                     id="react-select-2-input"
                     role="combobox"
                     spellcheck="false"
-                    style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                    style="color: inherit; background: 0px; opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
                     tabindex="0"
                     type="text"
                     value=""
@@ -103,7 +103,7 @@ exports[`Dashboard renders 1`] = `
           </div>
         </div>
         <div
-          class="sc-dYOLZc CMNKx"
+          class="sc-eCAofS fPVANh"
         >
           Region
         </div>
@@ -112,7 +112,7 @@ exports[`Dashboard renders 1`] = `
     <div>
       <br />
       <div
-        class="sc-bXdtCk gHaEXV"
+        class="sc-bdnzMm dUiuKD"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1fcgr4r-MuiPaper-root-MuiCard-root"
@@ -123,10 +123,10 @@ exports[`Dashboard renders 1`] = `
       <br />
       <div>
         <div
-          class="sc-hKDTPf epahpa"
+          class="sc-gtsusp kquUvT"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-74d805-MuiButtonBase-root-MuiButton-root"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-sizeMedium MuiButton-colorPrimary css-i572rh-MuiButtonBase-root-MuiButton-root"
             data-testid="shuffle-button"
             tabindex="0"
             type="button"
