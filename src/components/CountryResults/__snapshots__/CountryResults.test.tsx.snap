@@ -1,11 +1,11 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`CountryResults renders 1`] = `
 <div>
   <div>
     <br />
     <div
-      class="sc-bXdtCk gHaEXV"
+      class="sc-bdnzMm dUiuKD"
     >
       <div
         class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1fcgr4r-MuiPaper-root-MuiCard-root"
@@ -16,10 +16,10 @@ exports[`CountryResults renders 1`] = `
     <br />
     <div>
       <div
-        class="sc-hKDTPf epahpa"
+        class="sc-gtsusp kquUvT"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-74d805-MuiButtonBase-root-MuiButton-root"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-sizeMedium MuiButton-colorPrimary css-i572rh-MuiButtonBase-root-MuiButton-root"
           data-testid="shuffle-button"
           tabindex="0"
           type="button"
