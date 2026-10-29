@@ -1,75 +1,75 @@
 # Random Names
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bc1e27c9-e5eb-47fc-a459-cacbcf09421f/deploy-status)](https://app.netlify.com/sites/random-names/deploys)
+Generate random names from different regions.
+
+**[Try Random Names](https://ayonious.github.io/random-names/)**
+
+<p align="center">
+  <img height="342px" width="auto" alt="Random Names app preview" src="https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.2.gif">
+</p>
+
+Open the app, choose a region, and discover names.
+
+<details>
+<summary>Technical details — development, testing, and deployment</summary>
+
+### Project status
+
+[![GitHub Pages Deploy](https://github.com/ayonious/random-names/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/ayonious/random-names/actions/workflows/gh-pages.yml)
 [![CI](https://github.com/ayonious/random-names/workflows/CI/badge.svg)](https://github.com/ayonious/random-names/actions)
 [![codecov](https://codecov.io/gh/ayonious/random-names/branch/master/graph/badge.svg)](https://codecov.io/gh/ayonious/random-names)
 [![Cypress Tests](https://github.com/ayonious/random-names/actions/workflows/cypress.yml/badge.svg)](https://github.com/ayonious/random-names/actions/workflows/cypress.yml)
 
-Simple React app to show random names from different Regions
+### Run locally
 
-<p align="center">
-  <img height="342px" width="auto" alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/random-names@master/documentation/RandomNamesTutorial.2.gif">
-</p>
+Install Node.js and Yarn, then run:
 
-## 🎁 See Deployed
-
-https://random-names.netlify.app
-
-## 🏡 Local Running instruction
-
-```
-yarn
+```sh
+yarn install
 yarn start
 ```
 
-## 🧪 Run unit test
+### Run unit tests
 
+```sh
+yarn unit-test
 ```
-yarn start
-yarn run unit-test
-```
 
-## 🏗 Run Cypress integration tests
+### Run integration tests
 
-One Command (to be run with headless browser and pr checker / ci-cd pipeline)
+Start the app and run Cypress in a headless browser:
 
-```
+```sh
 yarn test-integration
 ```
 
-Two command (to see the results on nice UI) run in different tabs
+For the interactive Cypress runner, run these commands in separate terminals:
 
-```
+```sh
 yarn start
 yarn cypress-web
 ```
 
-## 🎥 Run Percy/Cypress integration tests and visual tests
+### Build
 
-One Command (to be run with headless browser and pr checker / ci-cd pipeline)
-
-```
-yarn test-integration-and-visual
+```sh
+yarn build
 ```
 
-Two command (to see the results on nice UI). run in different tabs
+The production files are generated in `dist/`.
 
-```
-yarn start
-yarn visual-test
-```
+### Deployment
 
-## 🎓 Things I played around with
+The app is hosted on GitHub Pages. The [deployment workflow](.github/workflows/gh-pages.yml) installs dependencies, builds the app, and deploys `dist/` on pushes to `master`. It can also be run manually from the Actions tab. Unit tests run separately in the CI workflow.
 
-1. Simplest react app (raw webpack and babbel)
-2. Typescript
-3. material ui
-4. State/Props/events
-5. Deploy to Netlify
-6. Creating CI in Travis to run tests during pr creation
-7. Integration testing with cypress
-8. Unit testing with React-testing-library
+To deploy your own fork, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source. Push to `master` or run **GitHub Pages Deploy** from the Actions tab. The workflow reports the deployed site URL.
 
-## 🚀 Deploy Yourself
+### Built with
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ayonious/random-names)
+- React and TypeScript
+- Material UI and styled-components
+- Webpack and Babel
+- Jest, React Testing Library, and Cypress
+- GitHub Actions and GitHub Pages
+
+</details>
