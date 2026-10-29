@@ -1,6 +1,6 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
-module.exports = {
+module.exports = (_env, argv = {}) => ({
   // you can have multiple entry points for separate js here are some examples for it
   // https://webpack.js.org/guides/output-management/
   entry: './src/index.tsx',
@@ -11,6 +11,10 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
+          options: {
+            // Keep Babel's JSX runtime aligned with Webpack's React runtime.
+            envName: argv.mode || 'production',
+          },
         },
       },
       {
@@ -34,4 +38,4 @@ module.exports = {
       favicon: './public/favicon.ico',
     }),
   ],
-};
+});
