@@ -1,4 +1,6 @@
 {
   "collectCoverage": true,
-  "preset": "ts-jest"
+  "transform": {
+    "^.+\\.[jt]sx?$": "babel-jest"
+  }
 }
