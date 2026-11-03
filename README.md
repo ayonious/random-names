@@ -3,7 +3,6 @@
 [![GitHub Pages Deploy](https://github.com/ayonious/random-names/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/ayonious/random-names/actions/workflows/gh-pages.yml)
 [![CI](https://github.com/ayonious/random-names/workflows/CI/badge.svg)](https://github.com/ayonious/random-names/actions)
 [![codecov](https://codecov.io/gh/ayonious/random-names/branch/master/graph/badge.svg)](https://codecov.io/gh/ayonious/random-names)
-[![Cypress Tests](https://github.com/ayonious/random-names/actions/workflows/cypress.yml/badge.svg)](https://github.com/ayonious/random-names/actions/workflows/cypress.yml)
 
 
 Generate random names from different regions.

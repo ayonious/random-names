@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: '26.12.1'
+          node-version-file: '.nvmrc'
           cache: 'yarn'
 
       - name: Install dependencies
