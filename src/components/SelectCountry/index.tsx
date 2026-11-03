@@ -24,6 +24,7 @@ const SelectCountry = ({ selectList, onSelectOption }: any) => (
           defaultValue={selectList[0]}
           isSearchable={true}
           name="country list"
+          inputId="country-select"
           options={selectList}
           onChange={(item: SingleValue<SelectItem>) => onSelectOption(item)}
         />

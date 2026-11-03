@@ -27,3 +27,22 @@ jobs:
     
     - name: Build project
       run: yarn build
+  e2e:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v7
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: '26.12.1'
+        cache: 'yarn'
+
+    - name: Run Cypress tests
+      uses: cypress-io/github-action@v7
+      with:
+        start: yarn start-headless
+        wait-on: http://localhost:8080
+        wait-on-timeout: 120
