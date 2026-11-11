@@ -9,9 +9,8 @@ updates:
       timezone: Europe/Berlin
     versioning-strategy: increase
     groups:
-      all-dependencies:
-        patterns:
-          - "*"
+      non-major:
+        update-types: [minor, patch]
 
   - package-ecosystem: github-actions
     directory: /
@@ -21,6 +20,5 @@ updates:
       time: "03:00"
       timezone: Europe/Berlin
     groups:
-      all-actions:
-        patterns:
-          - "*"
+      non-major:
+        update-types: [minor, patch]
