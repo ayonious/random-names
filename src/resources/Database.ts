@@ -6,6 +6,7 @@ import Germany from './countryInput/Germany.json';
 import India from './countryInput/India.json';
 import Iran from './countryInput/Iran.json';
 import Italy from './countryInput/Italy.json';
+import Paraguay from './countryInput/Paraguay.json';
 import Peru from './countryInput/Peru.json';
 import Poland from './countryInput/Poland.json';
 import Romania from './countryInput/Romania.json';
@@ -35,6 +36,7 @@ export const database: Database = {
   India,
   Iran,
   Italy,
+  Paraguay,
   Peru,
   Poland,
   Romania,

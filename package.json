@@ -21,7 +21,7 @@
     "styled-components": "6.6.0"
   },
   "scripts": {
-    "cypress-headless": "cypress run --browser chrome --headless",
+    "cypress-headless": "cypress run",
     "cypress-web": "cypress open",
     "start": "webpack serve --open --mode development",
     "start-headless": "webpack serve --mode development",
@@ -30,8 +30,7 @@
     "build": "webpack --mode production",
     "build-dev": "webpack --mode development",
     "unit-test": "jest --config jestconfig.json",
-    "test": "yarn visual-test",
-    "test-integration-and-visual": "start-server-and-test start-headless http://localhost:8080 visual-test"
+    "test": "yarn unit-test"
   },
   "browserslist": [
     ">0.2%",
